@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Dawid S. - 2025 Strategic Sales Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+        
+        /* GŁÓWNE TŁO: Głębokie, żywe navy blue */
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #e2e8f0; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+        /* PANEL SZKLANY: Wysoka nieprzezroczystość (0.8) dla efektu głębi */
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* PODŚWIETLENIE EXECUTIVE SUMMARY */
+        .exec-summary-box {
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.9) 0%, rgba(30, 58, 138, 0.3) 100%);
+            border-left: 4px solid #4ade80; 
+        }
+
+        /* EFEKT KPI: Glow przy najechaniu */
+        .kpi-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .kpi-card:hover {
+            transform: translateY(-4px);
+            border-color: #3b82f6; 
+            box-shadow: 0 15px 30px -5px rgba(59, 130, 246, 0.3);
+        }
+
+        /* STATUS ONLINE: Pulsująca dioda */
+        @keyframes pulse-ring {
+            0% { transform: scale(0.8); opacity: 0.8; }
+            100% { transform: scale(2); opacity: 0; }
+        }
+        .pulse-ring::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background-color: #4ade80; 
+            border-radius: 50%;
+            z-index: -1;
+            animation: pulse-ring 2s infinite;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 lg:p-8">
+
+    <!-- Header Section -->
+    <header class="mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-slate-700 pb-6">
+        <div>
+            <div class="flex items-center gap-3 mb-2">
+                <div class="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg shadow-blue-500/50">
+                    <i class="fa-solid fa-brain text-white text-xl"></i>
+                </div>
+                <h1 class="text-4xl font-extrabold tracking-tight text-white uppercase">HR KONO <span class="text-blue-400">SIKIBI AI Dashboard</span></h1>
+            </div>
+            <p class="text-slate-400 font-mono text-sm tracking-wide">
+                ANALYTICS TARGET: <span class="text-white font-bold">DAWID S.</span> | <span class="text-blue-400 font-bold">2025 ANNUAL REVIEW</span>
+            </p>
+        </div>
+        
+        <div class="flex items-center gap-4">
+            <div class="text-right">
+                <div class="text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-1">Risk Analysis Status</div>
+                <div class="flex items-center gap-2 bg-slate-800 px-4 py-1.5 rounded-full border border-slate-700 shadow-xl">
+                    <span class="relative w-2 h-2 bg-green-500 rounded-full pulse-ring"></span>
+                    <span class="text-xs font-mono text-green-400 font-bold tracking-tight">AI VERIFIED DATA</span>
+=======
+    <title>2025 SALES TEAM AI DASHBOARD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .metric-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .metric-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+        }
+        .tab-active {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+        }
+        .insight-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .7; }
+        }
+    </style>
+</head>
+<body class="text-slate-100 p-4 md:p-8" x-data="dashboardData()">
+    
+    <!-- HEADER -->
+    <header class="mb-8">
+        <div class="glass-card rounded-2xl p-6 md:p-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h1 class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
+                        2025 SALES TEAM AI DASHBOARD
+                    </h1>
+                    <p class="text-slate-400 mt-2">Executive Performance Analytics • Rok 2025</p>
+                </div>
+                <div class="flex gap-2">
+                    <button @click="currentView = 'overview'" 
+                            :class="currentView === 'overview' ? 'tab-active' : 'bg-slate-700'" 
+                            class="px-4 py-2 rounded-lg font-semibold transition">
+                        Ogólne
+                    </button>
+                    <button @click="currentView = 'team'" 
+                            :class="currentView === 'team' ? 'tab-active' : 'bg-slate-700'" 
+                            class="px-4 py-2 rounded-lg font-semibold transition">
+                        Zespół
+                    </button>
+                    <button @click="currentView = 'top3'" 
+                            :class="currentView === 'top3' ? 'tab-active' : 'bg-slate-700'" 
+                            class="px-4 py-2 rounded-lg font-semibold transition">
+                        TOP 3
+                    </button>
+>>>>>>> c626d6d (Initial dashboard commit)
+                </div>
+            </div>
+        </div>
+    </header>
+
+<<<<<<< HEAD
+    <!-- EXECUTIVE SUMMARY -->
+    <div class="glass-panel rounded-2xl p-0 mb-8 overflow-hidden exec-summary-box relative group">
+        <div class="h-1 w-full bg-gradient-to-r from-green-500 via-blue-500 to-purple-500"></div>
+        
+        <div class="p-8 relative z-10">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-bolt text-amber-400 text-xl animate-pulse"></i>
+                <h2 class="text-sm font-mono font-bold text-blue-400 tracking-widest uppercase">STRATEGIC SALES INSIGHT_</h2>
+            </div>
+            
+            <p class="text-slate-200 text-lg leading-relaxed font-normal">
+                Analiza algorytmiczna roku 2025 wskazuje na <span class="text-white font-bold bg-blue-600/40 px-2 py-0.5 rounded border border-blue-400/30">przejście od modelu "Hunter" do modelu "Strategic Farmer"</span>. 
+                Dawid S. osiągnął rekordowy wolumen <span class="text-green-400 font-extrabold text-3xl drop-shadow-[0_0_12px_rgba(74,222,128,0.5)]">631 osób</span> przy optymalizacji nakładów pracy (Efficiency Ratio). 
+                Kluczowym sukcesem jest <span class="text-blue-300 font-semibold border-b-2 border-blue-500/50 border-dotted">minimalizacja ryzyka utraty przychodów</span> poprzez agresywny upselling u klientów kluczowych (Simoldes, BAKS) 
+                oraz dywersyfikację portfela o 13 nowych klientów dowożąc sprzedaż w warunkach zwiększonej presji kontrolnej u kluczowych partnerów.
+            </p>
+        </div>
+        <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition duration-500">
+            <i class="fa-solid fa-chess-knight text-9xl text-white"></i>
+        </div>
+    </div>
+
+    <!-- KPI GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-green-500/20">
+            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-users text-5xl text-green-500"></i></div>
+            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">Volume 2025</p>
+            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">631</h3>
+            <div class="flex items-center gap-2 text-xs font-bold text-green-400 bg-green-900/40 w-fit px-2 py-1 rounded border border-green-500/30">
+                <i class="fa-solid fa-chart-line"></i> RECORD YEAR
+            </div>
+        </div>
+
+        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-blue-500/20">
+            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-hand-holding-dollar text-5xl text-blue-500"></i></div>
+            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">Upselling Share</p>
+            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">79.9%</h3>
+            <p class="text-xs text-blue-300 font-semibold tracking-wide uppercase">Stabilność portfela</p>
+        </div>
+
+        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-purple-500/20">
+            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-bullseye text-5xl text-purple-500"></i></div>
+            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">New Logos</p>
+            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">13</h3>
+            <p class="text-xs text-slate-400">Nowe kontrakty (Hunter)</p>
+        </div>
+
+        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-amber-500/20">
+            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-forward-step text-5xl text-amber-500"></i></div>
+            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">Q1 2026 Pipeline</p>
+            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">12+</h3>
+            <p class="text-xs text-amber-400 font-bold uppercase tracking-tight">Secured & Ready</p>
+        </div>
+    </div>
+
+    <!-- MAIN DATA VIEW -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+        <!-- Wykres -->
+        <div class="lg:col-span-2 glass-panel rounded-xl p-6">
+            <div class="flex justify-between items-center mb-8">
+                <h3 class="text-white font-bold flex items-center gap-2 uppercase tracking-wide">
+                    <i class="fa-solid fa-gauge-high text-blue-500"></i> 
+                    Performance Efficiency Matrix
+                </h3>
+                <div class="flex gap-4 text-[10px] font-mono">
+                    <span class="flex items-center gap-1 text-green-400"><i class="fa-solid fa-circle"></i> Volume</span>
+                    <span class="flex items-center gap-1 text-blue-400"><i class="fa-solid fa-circle"></i> Activity</span>
+                </div>
+            </div>
+            <div class="relative h-72 w-full">
+                <canvas id="efficiencyChart"></canvas>
+            </div>
+        </div>
+
+        <!-- RISK & MARGIN INTELLIGENCE (Przywrócona treść merytoryczna) -->
+        <div class="glass-panel rounded-xl p-0 overflow-hidden flex flex-col border-blue-500/20">
+            <div class="p-4 bg-gradient-to-r from-blue-700/40 to-slate-800 border-b border-blue-500/30">
+                <h3 class="text-white font-bold flex items-center gap-2 text-sm tracking-wide uppercase">
+                    <i class="fa-solid fa-shield-halved text-amber-400"></i> 
+                    Risk & Margin Intelligence
+                </h3>
+            </div>
+            <div class="p-5 flex-1 space-y-5 bg-slate-900/20 overflow-y-auto font-mono text-xs">
+                <!-- Item 1: Simoldes -->
+                <div class="bg-slate-800/60 p-4 rounded-lg border-l-2 border-green-500 shadow-lg">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-white font-bold text-sm">Simoldes (153 os.)</span>
+                        <span class="bg-green-900 text-green-400 px-2 py-0.5 rounded text-[10px] font-bold">SECURE</span>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed italic">Kluczowy klient. Kryzys presji organów kontrolnych zabezpieczony, zbudowana solidna podstawa pod dalszy rozwój..</p>
+                </div>
+                <!-- Item 2: Adex Pharma -->
+                <div class="bg-slate-800/60 p-4 rounded-lg border-l-2 border-blue-500 shadow-lg">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-white font-bold text-sm">Adex Pharma (63 os.)</span>
+                        <span class="bg-blue-900 text-blue-400 px-2 py-0.5 rounded text-[10px] font-bold">GROWTH</span>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed italic">Dywersyfikacja. Wysoka marżowość sektora Pharma. Zabezpiecza wynik w Q3.</p>
+                </div>
+                <!-- Item 3: BAKS -->
+                <div class="bg-slate-800/60 p-4 rounded-lg border-l-2 border-purple-500 shadow-lg">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-white font-bold text-sm">BAKS (109 os.)</span>
+                        <span class="bg-purple-900 text-purple-400 px-2 py-0.5 rounded text-[10px] font-bold">STABLE</span>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed italic">Strategiczne utrzymanie. Wolumen >100. Wymaga stałej opieki (Strategic Farmer).</p>
+                </div>
+            </div>
+            <div class="p-3 bg-slate-800/50 text-center border-t border-slate-700">
+                <p class="text-[10px] text-slate-500 font-mono uppercase font-bold tracking-widest">Recommendation: Margin Optimization</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROADMAP -->
+    <div class="glass-panel rounded-xl p-6 border border-slate-700 shadow-2xl relative">
+        <h3 class="text-slate-400 font-mono text-xs uppercase mb-8 tracking-[0.2em] font-bold">2025 Strategic Roadmap Execution</h3>
+        <div class="relative">
+            <div class="absolute top-1/2 left-0 w-full h-1 bg-slate-700/50 -translate-y-1/2 rounded-full overflow-hidden">
+                <div class="h-full bg-blue-500 w-[95%] shadow-[0_0_15px_rgba(59,130,246,0.6)]"></div>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-4 relative z-10">
+                <div class="text-center group">
+                    <div class="w-5 h-5 bg-blue-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_20px_rgba(59,130,246,0.8)] group-hover:scale-125 transition"></div>
+                    <h4 class="text-white font-bold text-sm">Q1: Acquisition</h4>
+                    <p class="text-[10px] text-blue-300 uppercase font-bold mt-1">BIG UPSELLING ACTION</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-5 h-5 bg-blue-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_20px_rgba(59,130,246,0.8)] group-hover:scale-125 transition"></div>
+                    <h4 class="text-white font-bold text-sm">Q2: Development</h4>
+                    <p class="text-[10px] text-blue-300 uppercase font-bold mt-1">Scaling Majors</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-5 h-5 bg-green-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_25px_rgba(74,222,128,0.8)] group-hover:scale-125 transition"></div>
+                    <h4 class="text-green-400 font-bold text-sm">Q3: Diversify</h4>
+                    <p class="text-[10px] text-green-300 uppercase font-bold mt-1">Pharma Entry</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-5 h-5 bg-amber-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_25px_rgba(245,158,11,0.8)] group-hover:scale-125 transition"></div>
+                    <h4 class="text-amber-400 font-bold text-sm">Q4: Q1 Prep</h4>
+                    <p class="text-[10px] text-amber-300 uppercase font-bold mt-1">12+ Secured</p>
+                </div>
+=======
+    <!-- FILTRY -->
+    <div class="glass-card rounded-xl p-4 mb-6" x-show="currentView !== 'overview'">
+        <div class="flex flex-wrap gap-4">
+            <div>
+                <label class="block text-sm text-slate-400 mb-2">Miesiąc</label>
+                <select x-model="selectedMonth" class="bg-slate-700 text-white px-4 py-2 rounded-lg">
+                    <option value="all">Wszystkie</option>
+                    <template x-for="month in months" :key="month.num">
+                        <option :value="month.num" x-text="month.name"></option>
+                    </template>
+                </select>
+            </div>
+            <div x-show="currentView === 'team'">
+                <label class="block text-sm text-slate-400 mb-2">Handlowiec</label>
+                <select x-model="selectedMember" class="bg-slate-700 text-white px-4 py-2 rounded-lg">
+                    <option value="all">Wszyscy</option>
+                    <template x-for="member in teamMembers" :key="member">
+                        <option :value="member" x-text="member"></option>
+                    </template>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEKCJA 1: EXECUTIVE SUMMARY -->
+    <div x-show="currentView === 'overview'" class="mb-8">
+        <h2 class="text-2xl font-bold text-emerald-400 mb-6">## THE PULSE – Executive Summary</h2>
+        
+        <!-- KPI Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="glass-card rounded-xl p-6 metric-card">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-slate-400 text-sm font-semibold">SPOTKANIA</span>
+                    <span class="text-3xl">📊</span>
+                </div>
+                <div class="text-4xl font-bold text-emerald-400" x-text="totalMeetings"></div>
+                <div class="text-xs text-slate-500 mt-2">Całkowita liczba spotkań</div>
+            </div>
+
+            <div class="glass-card rounded-xl p-6 metric-card">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-slate-400 text-sm font-semibold">KONTRAKTY</span>
+                    <span class="text-3xl">✅</span>
+                </div>
+                <div class="text-4xl font-bold text-blue-400" x-text="totalContracts"></div>
+                <div class="text-xs text-slate-500 mt-2">Podpisane kontrakty</div>
+            </div>
+
+            <div class="glass-card rounded-xl p-6 metric-card">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-slate-400 text-sm font-semibold">CONVERSION</span>
+                    <span class="text-3xl">🎯</span>
+                </div>
+                <div class="text-4xl font-bold text-amber-400" x-text="conversionRate + '%'"></div>
+                <div class="text-xs text-slate-500 mt-2">Spotkania → Kontrakty</div>
+            </div>
+
+            <div class="glass-card rounded-xl p-6 metric-card">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-slate-400 text-sm font-semibold">AKTYWNOŚĆ</span>
+                    <span class="text-3xl">⚡</span>
+                </div>
+                <div class="text-4xl font-bold text-purple-400" x-text="totalActivity"></div>
+                <div class="text-xs text-slate-500 mt-2">Maile + Telefony</div>
+            </div>
+        </div>
+
+        <!-- Effort vs Result Chart -->
+        <div class="glass-card rounded-xl p-6">
+            <h3 class="text-xl font-bold text-white mb-4">Effort vs Results – Korelacja Wysiłku i Wyników</h3>
+            <canvas id="effortChart" height="80"></canvas>
+        </div>
+    </div>
+
+    <!-- SEKCJA 2: TEAM FUNNEL -->
+    <div x-show="currentView === 'team'" class="mb-8">
+        <h2 class="text-2xl font-bold text-emerald-400 mb-6">## Analiza Zespołu i Lejek Sprzedażowy</h2>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+            <div class="glass-card rounded-xl p-6">
+                <h3 class="text-xl font-bold text-white mb-4">Lejek Konwersji</h3>
+                <canvas id="funnelChart"></canvas>
+            </div>
+            
+            <div class="glass-card rounded-xl p-6">
+                <h3 class="text-xl font-bold text-white mb-4">Ranking Handlowców</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="border-b border-slate-600">
+                                <th class="py-3 text-slate-400 font-semibold">#</th>
+                                <th class="py-3 text-slate-400 font-semibold">Handlowiec</th>
+                                <th class="py-3 text-slate-400 font-semibold text-right">Spotkania</th>
+                                <th class="py-3 text-slate-400 font-semibold text-right">Kontrakty</th>
+                                <th class="py-3 text-slate-400 font-semibold text-right">Conv %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template x-for="(member, index) in rankedMembers" :key="member.name">
+                                <tr class="border-b border-slate-700 hover:bg-slate-700/50">
+                                    <td class="py-3" x-text="index + 1"></td>
+                                    <td class="py-3 font-semibold" x-text="member.name"></td>
+                                    <td class="py-3 text-right" x-text="member.meetings"></td>
+                                    <td class="py-3 text-right text-emerald-400 font-bold" x-text="member.contracts"></td>
+                                    <td class="py-3 text-right" x-text="member.conversion + '%'"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monthly Activity Chart -->
+        <div class="glass-card rounded-xl p-6">
+            <h3 class="text-xl font-bold text-white mb-4">Aktywność w Czasie (Miesięcznie)</h3>
+            <canvas id="monthlyActivityChart" height="60"></canvas>
+        </div>
+    </div>
+
+    <!-- SEKCJA 3: TOP 3 PERFORMERS -->
+    <div x-show="currentView === 'top3'" class="mb-8">
+        <h2 class="text-2xl font-bold text-emerald-400 mb-6">## TOP 3 Performers – Wolumen Sprzedaży 2025</h2>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+            <template x-for="(seller, index) in top3Sellers" :key="seller.name">
+                <div class="glass-card rounded-xl p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <div class="text-sm text-slate-400">Top #<span x-text="index + 1"></span></div>
+                            <div class="text-2xl font-bold" x-text="seller.name"></div>
+                        </div>
+                        <div class="text-4xl" x-text="index === 0 ? '🥇' : (index === 1 ? '🥈' : '🥉')"></div>
+                    </div>
+                    <div class="text-4xl font-bold text-emerald-400 mb-2" x-text="seller.totalVolume"></div>
+                    <div class="text-sm text-slate-400">Całkowity wolumen</div>
+                    <div class="mt-4 pt-4 border-t border-slate-600">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span class="text-slate-400">New Business:</span>
+                            <span class="font-bold text-blue-400" x-text="seller.newBusiness"></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Portfel:</span>
+                            <span class="font-bold text-purple-400" x-text="seller.portfolio"></span>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="glass-card rounded-xl p-6">
+                <h3 class="text-xl font-bold text-white mb-4">Podział: New Business vs Portfel</h3>
+                <canvas id="businessTypeChart"></canvas>
+            </div>
+            
+            <div class="glass-card rounded-xl p-6">
+                <h3 class="text-xl font-bold text-white mb-4">Porównanie Wolumenu TOP 3</h3>
+                <canvas id="top3ComparisonChart"></canvas>
+>>>>>>> c626d6d (Initial dashboard commit)
+            </div>
+        </div>
+    </div>
+
+<<<<<<< HEAD
+    <script>
+        const ctx = document.getElementById('efficiencyChart').getContext('2d');
+        const gradientBlue = ctx.createLinearGradient(0, 0, 0, 400);
+        gradientBlue.addColorStop(0, 'rgba(59, 130, 246, 0.6)');
+        gradientBlue.addColorStop(1, 'rgba(59, 130, 246, 0.05)');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Sty', 'Lut', 'Mar', 'Kwi', 'Maj', 'Cze', 'Lip', 'Sie', 'Wrz', 'Paź', 'Lis', 'Gru'],
+                datasets: [
+                    {
+                        label: 'Volume (Growth Line)',
+                        data: [140, 180, 220, 260, 320, 380, 420, 480, 530, 560, 600, 631],
+                        borderColor: '#4ade80',
+                        borderWidth: 4,
+                        pointBackgroundColor: '#0f172a',
+                        pointBorderColor: '#4ade80',
+                        pointBorderWidth: 2,
+                        pointRadius: 4,
+                        tension: 0.4,
+                        yAxisID: 'y'
+                    },
+                    {
+                        label: 'Sales Intensity Index',
+                        data: [45, 40, 50, 35, 60, 45, 30, 65, 55, 50, 60, 70],
+                        backgroundColor: gradientBlue,
+                        borderColor: '#3b82f6',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4,
+                        yAxisID: 'y1'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        grid: { color: 'rgba(148, 163, 184, 0.05)' },
+                        ticks: { color: '#64748b', font: { weight: 'bold' } }
+                    },
+                    y: {
+                        position: 'left',
+                        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+                        ticks: { color: '#4ade80', font: { weight: 'bold' } }
+                    },
+                    y1: {
+                        position: 'right',
+                        grid: { display: false },
+                        ticks: { display: false }
+                    }
+                }
+            }
+        });
+=======
+    <!-- SEKCJA 4: AI INSIGHTS -->
+    <div class="glass-card rounded-xl p-6 mt-8">
+        <div class="flex items-center gap-3 mb-4">
+            <span class="text-3xl insight-pulse">🤖</span>
+            <h2 class="text-2xl font-bold text-emerald-400">AI Insights Generator</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <template x-for="insight in aiInsights" :key="insight">
+                <div class="bg-slate-700/50 rounded-lg p-4 border-l-4 border-emerald-400">
+                    <p class="text-sm" x-text="insight"></p>
+                </div>
+            </template>
+        </div>
+    </div>
+
+    <script>
+        function dashboardData() {
+            return {
+                currentView: 'overview',
+                selectedMonth: 'all',
+                selectedMember: 'all',
+                
+                // REAL DATA FROM CSV FILES
+                weeklyMetrics: [
+                    {"team_member":"Dawid S.","month_number":1,"month_name":"Styczeń","emails_introduction":0,"meetings":1,"emails_offers":1,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":1,"month_name":"Styczeń","emails_introduction":2,"meetings":1,"emails_offers":1,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":1,"month_name":"Styczeń","emails_introduction":3,"meetings":2,"emails_offers":2,"phone_calls":19,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":1,"month_name":"Styczeń","emails_introduction":2,"meetings":1,"emails_offers":2,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":1,"month_name":"Styczeń","emails_introduction":14,"meetings":2,"emails_offers":2,"phone_calls":7,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":1,"month_name":"Styczeń","emails_introduction":2,"meetings":3,"emails_offers":7,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":1,"month_name":"Styczeń","emails_introduction":5,"meetings":2,"emails_offers":2,"phone_calls":12,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":1,"month_name":"Styczeń","emails_introduction":4,"meetings":1,"emails_offers":2,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":1,"month_name":"Styczeń","emails_introduction":5,"meetings":4,"emails_offers":1,"phone_calls":9,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":1,"month_name":"Styczeń","emails_introduction":2,"meetings":4,"emails_offers":2,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":1,"month_name":"Styczeń","emails_introduction":4,"meetings":4,"emails_offers":3,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":1,"month_name":"Styczeń","emails_introduction":8,"meetings":0,"emails_offers":0,"phone_calls":21,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":1,"month_name":"Styczeń","emails_introduction":1,"meetings":1,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":1,"month_name":"Styczeń","emails_introduction":0,"meetings":1,"emails_offers":2,"phone_calls":22,"contracts_signed":1},
+                    {"team_member":"Bartek C.","month_number":1,"month_name":"Styczeń","emails_introduction":1,"meetings":0,"emails_offers":4,"phone_calls":40,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":1,"month_name":"Styczeń","emails_introduction":27,"meetings":21,"emails_offers":2,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":1,"month_name":"Styczeń","emails_introduction":15,"meetings":25,"emails_offers":7,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":1,"month_name":"Styczeń","emails_introduction":24,"meetings":16,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":1,"month_name":"Styczeń","emails_introduction":36,"meetings":22,"emails_offers":2,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":2,"month_name":"Luty","emails_introduction":1,"meetings":2,"emails_offers":1,"phone_calls":6,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":2,"month_name":"Luty","emails_introduction":2,"meetings":2,"emails_offers":2,"phone_calls":9,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":2,"month_name":"Luty","emails_introduction":2,"meetings":0,"emails_offers":1,"phone_calls":11,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":2,"month_name":"Luty","emails_introduction":6,"meetings":1,"emails_offers":1,"phone_calls":13,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":2,"month_name":"Luty","emails_introduction":3,"meetings":2,"emails_offers":2,"phone_calls":8,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":2,"month_name":"Luty","emails_introduction":3,"meetings":2,"emails_offers":2,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":2,"month_name":"Luty","emails_introduction":4,"meetings":2,"emails_offers":2,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":2,"month_name":"Luty","emails_introduction":4,"meetings":10,"emails_offers":2,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":2,"month_name":"Luty","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":0,"contracts_signed":1},
+                    {"team_member":"Szymon O.","month_number":2,"month_name":"Luty","emails_introduction":4,"meetings":1,"emails_offers":1,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":2,"month_name":"Luty","emails_introduction":14,"meetings":0,"emails_offers":2,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":2,"month_name":"Luty","emails_introduction":14,"meetings":1,"emails_offers":0,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":2,"month_name":"Luty","emails_introduction":4,"meetings":2,"emails_offers":1,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":2,"month_name":"Luty","emails_introduction":6,"meetings":2,"emails_offers":3,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":2,"month_name":"Luty","emails_introduction":1,"meetings":1,"emails_offers":1,"phone_calls":13,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":2,"month_name":"Luty","emails_introduction":1,"meetings":2,"emails_offers":1,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":0,"emails_offers":4,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":1,"emails_offers":1,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":3,"month_name":"Marzec","emails_introduction":2,"meetings":1,"emails_offers":3,"phone_calls":14,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":3,"month_name":"Marzec","emails_introduction":1,"meetings":2,"emails_offers":0,"phone_calls":8,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":0,"emails_offers":2,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":3,"month_name":"Marzec","emails_introduction":5,"meetings":1,"emails_offers":3,"phone_calls":8,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":1,"emails_offers":1,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":3,"month_name":"Marzec","emails_introduction":2,"meetings":2,"emails_offers":2,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":10,"emails_offers":2,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":3,"month_name":"Marzec","emails_introduction":8,"meetings":6,"emails_offers":2,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":3,"month_name":"Marzec","emails_introduction":5,"meetings":12,"emails_offers":2,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":4,"emails_offers":1,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":3,"month_name":"Marzec","emails_introduction":4,"meetings":3,"emails_offers":1,"phone_calls":1,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":3,"month_name":"Marzec","emails_introduction":2,"meetings":0,"emails_offers":0,"phone_calls":28,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":3,"month_name":"Marzec","emails_introduction":0,"meetings":1,"emails_offers":3,"phone_calls":29,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":3,"month_name":"Marzec","emails_introduction":3,"meetings":0,"emails_offers":0,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":3,"month_name":"Marzec","emails_introduction":8,"meetings":0,"emails_offers":0,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":3,"month_name":"Marzec","emails_introduction":5,"meetings":0,"emails_offers":1,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":3,"month_name":"Marzec","emails_introduction":3,"meetings":0,"emails_offers":1,"phone_calls":13,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":3,"month_name":"Marzec","emails_introduction":6,"meetings":1,"emails_offers":0,"phone_calls":2,"contracts_signed":1},
+                    {"team_member":"Bartek Z.","month_number":3,"month_name":"Marzec","emails_introduction":10,"meetings":4,"emails_offers":3,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":3,"month_name":"Marzec","emails_introduction":13,"meetings":0,"emails_offers":0,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":3,"month_name":"Marzec","emails_introduction":14,"meetings":2,"emails_offers":1,"phone_calls":30,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":4,"month_name":"Kwiecień","emails_introduction":0,"meetings":0,"emails_offers":1,"phone_calls":11,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":4,"month_name":"Kwiecień","emails_introduction":4,"meetings":0,"emails_offers":2,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":4,"month_name":"Kwiecień","emails_introduction":2,"meetings":1,"emails_offers":2,"phone_calls":12,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":4,"month_name":"Kwiecień","emails_introduction":1,"meetings":1,"emails_offers":0,"phone_calls":9,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":4,"month_name":"Kwiecień","emails_introduction":2,"meetings":0,"emails_offers":1,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":4,"month_name":"Kwiecień","emails_introduction":6,"meetings":1,"emails_offers":1,"phone_calls":5,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":4,"month_name":"Kwiecień","emails_introduction":7,"meetings":1,"emails_offers":1,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":4,"month_name":"Kwiecień","emails_introduction":12,"meetings":1,"emails_offers":1,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":4,"month_name":"Kwiecień","emails_introduction":10,"meetings":0,"emails_offers":2,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":4,"month_name":"Kwiecień","emails_introduction":1,"meetings":0,"emails_offers":0,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":4,"month_name":"Kwiecień","emails_introduction":3,"meetings":2,"emails_offers":2,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":4,"month_name":"Kwiecień","emails_introduction":4,"meetings":4,"emails_offers":4,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":4,"month_name":"Kwiecień","emails_introduction":3,"meetings":4,"emails_offers":2,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":4,"month_name":"Kwiecień","emails_introduction":0,"meetings":4,"emails_offers":2,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":4,"month_name":"Kwiecień","emails_introduction":0,"meetings":2,"emails_offers":0,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":4,"month_name":"Kwiecień","emails_introduction":5,"meetings":1,"emails_offers":1,"phone_calls":9,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":4,"month_name":"Kwiecień","emails_introduction":0,"meetings":0,"emails_offers":1,"phone_calls":46,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":4,"month_name":"Kwiecień","emails_introduction":8,"meetings":0,"emails_offers":4,"phone_calls":7,"contracts_signed":1},
+                    {"team_member":"Bartek C.","month_number":4,"month_name":"Kwiecień","emails_introduction":5,"meetings":0,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":4,"month_name":"Kwiecień","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":17,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":4,"month_name":"Kwiecień","emails_introduction":6,"meetings":0,"emails_offers":1,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":4,"month_name":"Kwiecień","emails_introduction":3,"meetings":1,"emails_offers":0,"phone_calls":1,"contracts_signed":1},
+                    {"team_member":"Szymon O.","month_number":4,"month_name":"Kwiecień","emails_introduction":2,"meetings":0,"emails_offers":1,"phone_calls":11,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":4,"month_name":"Kwiecień","emails_introduction":1,"meetings":0,"emails_offers":1,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":4,"month_name":"Kwiecień","emails_introduction":0,"meetings":1,"emails_offers":2,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":4,"month_name":"Kwiecień","emails_introduction":41,"meetings":0,"emails_offers":2,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":4,"month_name":"Kwiecień","emails_introduction":14,"meetings":0,"emails_offers":0,"phone_calls":35,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":4,"month_name":"Kwiecień","emails_introduction":21,"meetings":1,"emails_offers":1,"phone_calls":30,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":4,"month_name":"Kwiecień","emails_introduction":20,"meetings":0,"emails_offers":1,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":4,"month_name":"Kwiecień","emails_introduction":20,"meetings":0,"emails_offers":0,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":5,"month_name":"Maj","emails_introduction":1,"meetings":1,"emails_offers":1,"phone_calls":13,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":5,"month_name":"Maj","emails_introduction":1,"meetings":4,"emails_offers":2,"phone_calls":13,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":5,"month_name":"Maj","emails_introduction":8,"meetings":1,"emails_offers":3,"phone_calls":14,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":5,"month_name":"Maj","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":0,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":5,"month_name":"Maj","emails_introduction":15,"meetings":2,"emails_offers":1,"phone_calls":18,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":5,"month_name":"Maj","emails_introduction":16,"meetings":3,"emails_offers":3,"phone_calls":28,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":5,"month_name":"Maj","emails_introduction":14,"meetings":4,"emails_offers":3,"phone_calls":17,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":5,"month_name":"Maj","emails_introduction":22,"meetings":4,"emails_offers":2,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":5,"month_name":"Maj","emails_introduction":3,"meetings":4,"emails_offers":3,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":5,"month_name":"Maj","emails_introduction":3,"meetings":3,"emails_offers":5,"phone_calls":7,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":5,"month_name":"Maj","emails_introduction":3,"meetings":3,"emails_offers":4,"phone_calls":9,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":5,"month_name":"Maj","emails_introduction":4,"meetings":3,"emails_offers":3,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":5,"month_name":"Maj","emails_introduction":0,"meetings":6,"emails_offers":2,"phone_calls":18,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":5,"month_name":"Maj","emails_introduction":1,"meetings":2,"emails_offers":2,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":5,"month_name":"Maj","emails_introduction":2,"meetings":2,"emails_offers":1,"phone_calls":19,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":5,"month_name":"Maj","emails_introduction":1,"meetings":2,"emails_offers":0,"phone_calls":19,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":5,"month_name":"Maj","emails_introduction":2,"meetings":4,"emails_offers":1,"phone_calls":1,"contracts_signed":1},
+                    {"team_member":"Szymon O.","month_number":5,"month_name":"Maj","emails_introduction":2,"meetings":8,"emails_offers":1,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":5,"month_name":"Maj","emails_introduction":6,"meetings":1,"emails_offers":2,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":5,"month_name":"Maj","emails_introduction":1,"meetings":2,"emails_offers":1,"phone_calls":1,"contracts_signed":1},
+                    {"team_member":"Bartek Z.","month_number":5,"month_name":"Maj","emails_introduction":9,"meetings":3,"emails_offers":6,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":5,"month_name":"Maj","emails_introduction":18,"meetings":4,"emails_offers":3,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":5,"month_name":"Maj","emails_introduction":10,"meetings":3,"emails_offers":0,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":5,"month_name":"Maj","emails_introduction":16,"meetings":2,"emails_offers":2,"phone_calls":15,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":6,"month_name":"Czerwiec","emails_introduction":0,"meetings":0,"emails_offers":2,"phone_calls":3,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":6,"month_name":"Czerwiec","emails_introduction":2,"meetings":2,"emails_offers":3,"phone_calls":14,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":6,"month_name":"Czerwiec","emails_introduction":2,"meetings":2,"emails_offers":2,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":6,"month_name":"Czerwiec","emails_introduction":4,"meetings":0,"emails_offers":3,"phone_calls":11,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":6,"month_name":"Czerwiec","emails_introduction":11,"meetings":3,"emails_offers":3,"phone_calls":20,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":6,"month_name":"Czerwiec","emails_introduction":12,"meetings":3,"emails_offers":2,"phone_calls":14,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":6,"month_name":"Czerwiec","emails_introduction":6,"meetings":2,"emails_offers":1,"phone_calls":8,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":6,"month_name":"Czerwiec","emails_introduction":6,"meetings":0,"emails_offers":0,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":6,"month_name":"Czerwiec","emails_introduction":3,"meetings":6,"emails_offers":1,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":6,"month_name":"Czerwiec","emails_introduction":2,"meetings":4,"emails_offers":0,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":6,"month_name":"Czerwiec","emails_introduction":2,"meetings":2,"emails_offers":1,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":6,"month_name":"Czerwiec","emails_introduction":3,"meetings":5,"emails_offers":1,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":6,"month_name":"Czerwiec","emails_introduction":1,"meetings":2,"emails_offers":1,"phone_calls":9,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":6,"month_name":"Czerwiec","emails_introduction":2,"meetings":2,"emails_offers":0,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":6,"month_name":"Czerwiec","emails_introduction":1,"meetings":3,"emails_offers":1,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":6,"month_name":"Czerwiec","emails_introduction":1,"meetings":1,"emails_offers":1,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":6,"month_name":"Czerwiec","emails_introduction":7,"meetings":2,"emails_offers":3,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":6,"month_name":"Czerwiec","emails_introduction":0,"meetings":1,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":6,"month_name":"Czerwiec","emails_introduction":0,"meetings":4,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":6,"month_name":"Czerwiec","emails_introduction":1,"meetings":2,"emails_offers":1,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":6,"month_name":"Czerwiec","emails_introduction":15,"meetings":3,"emails_offers":0,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":6,"month_name":"Czerwiec","emails_introduction":0,"meetings":1,"emails_offers":1,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":6,"month_name":"Czerwiec","emails_introduction":3,"meetings":1,"emails_offers":1,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":6,"month_name":"Czerwiec","emails_introduction":7,"meetings":1,"emails_offers":0,"phone_calls":20,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":7,"month_name":"Lipiec","emails_introduction":5,"meetings":1,"emails_offers":3,"phone_calls":11,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":7,"month_name":"Lipiec","emails_introduction":1,"meetings":2,"emails_offers":4,"phone_calls":21,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":2,"emails_offers":2,"phone_calls":7,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":7,"month_name":"Lipiec","emails_introduction":2,"meetings":1,"emails_offers":2,"phone_calls":5,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":7,"month_name":"Lipiec","emails_introduction":13,"meetings":2,"emails_offers":2,"phone_calls":18,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":7,"month_name":"Lipiec","emails_introduction":6,"meetings":2,"emails_offers":2,"phone_calls":11,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":7,"month_name":"Lipiec","emails_introduction":16,"meetings":2,"emails_offers":2,"phone_calls":14,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":7,"month_name":"Lipiec","emails_introduction":2,"meetings":2,"emails_offers":2,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":7,"month_name":"Lipiec","emails_introduction":4,"meetings":3,"emails_offers":2,"phone_calls":11,"contracts_signed":1},
+                    {"team_member":"Piotr","month_number":7,"month_name":"Lipiec","emails_introduction":4,"meetings":4,"emails_offers":1,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":7,"month_name":"Lipiec","emails_introduction":4,"meetings":6,"emails_offers":2,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":7,"month_name":"Lipiec","emails_introduction":3,"meetings":8,"emails_offers":3,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":7,"month_name":"Lipiec","emails_introduction":6,"meetings":5,"emails_offers":4,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":7,"month_name":"Lipiec","emails_introduction":5,"meetings":5,"emails_offers":3,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":7,"month_name":"Lipiec","emails_introduction":1,"meetings":0,"emails_offers":1,"phone_calls":2,"contracts_signed":1},
+                    {"team_member":"Bartek C.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":3,"emails_offers":2,"phone_calls":24,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":7,"month_name":"Lipiec","emails_introduction":4,"meetings":3,"emails_offers":2,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":7,"month_name":"Lipiec","emails_introduction":1,"meetings":1,"emails_offers":2,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":7,"month_name":"Lipiec","emails_introduction":5,"meetings":1,"emails_offers":0,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":7,"month_name":"Lipiec","emails_introduction":1,"meetings":2,"emails_offers":1,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":7,"month_name":"Lipiec","emails_introduction":1,"meetings":3,"emails_offers":3,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":7,"month_name":"Lipiec","emails_introduction":3,"meetings":1,"emails_offers":1,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":7,"month_name":"Lipiec","emails_introduction":1,"meetings":3,"emails_offers":0,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":7,"month_name":"Lipiec","emails_introduction":15,"meetings":3,"emails_offers":1,"phone_calls":20,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":7,"month_name":"Lipiec","emails_introduction":15,"meetings":2,"emails_offers":3,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":7,"month_name":"Lipiec","emails_introduction":7,"meetings":3,"emails_offers":5,"phone_calls":10,"contracts_signed":1},
+                    {"team_member":"Bartek Z.","month_number":7,"month_name":"Lipiec","emails_introduction":8,"meetings":1,"emails_offers":3,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":7,"month_name":"Lipiec","emails_introduction":22,"meetings":0,"emails_offers":0,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":1,"emails_offers":0,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":7,"month_name":"Lipiec","emails_introduction":0,"meetings":2,"emails_offers":0,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":8,"month_name":"Sierpień","emails_introduction":1,"meetings":3,"emails_offers":3,"phone_calls":13,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":8,"month_name":"Sierpień","emails_introduction":2,"meetings":1,"emails_offers":1,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":8,"month_name":"Sierpień","emails_introduction":1,"meetings":2,"emails_offers":2,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":8,"month_name":"Sierpień","emails_introduction":0,"meetings":2,"emails_offers":1,"phone_calls":12,"contracts_signed":2},
+                    {"team_member":"Dawid K.","month_number":8,"month_name":"Sierpień","emails_introduction":8,"meetings":1,"emails_offers":1,"phone_calls":7,"contracts_signed":1},
+                    {"team_member":"Dawid K.","month_number":8,"month_name":"Sierpień","emails_introduction":11,"meetings":2,"emails_offers":3,"phone_calls":12,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":8,"month_name":"Sierpień","emails_introduction":6,"meetings":3,"emails_offers":3,"phone_calls":6,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":8,"month_name":"Sierpień","emails_introduction":10,"meetings":5,"emails_offers":3,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":8,"month_name":"Sierpień","emails_introduction":4,"meetings":3,"emails_offers":3,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":8,"month_name":"Sierpień","emails_introduction":4,"meetings":4,"emails_offers":2,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":8,"month_name":"Sierpień","emails_introduction":0,"meetings":4,"emails_offers":3,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":8,"month_name":"Sierpień","emails_introduction":4,"meetings":3,"emails_offers":2,"phone_calls":4,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":8,"month_name":"Sierpień","emails_introduction":3,"meetings":2,"emails_offers":2,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Bartek C.","month_number":8,"month_name":"Sierpień","emails_introduction":0,"meetings":1,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":8,"month_name":"Sierpień","emails_introduction":0,"meetings":0,"emails_offers":0,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":8,"month_name":"Sierpień","emails_introduction":0,"meetings":6,"emails_offers":2,"phone_calls":3,"contracts_signed":1},
+                    {"team_member":"Szymon O.","month_number":8,"month_name":"Sierpień","emails_introduction":1,"meetings":11,"emails_offers":0,"phone_calls":1,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":8,"month_name":"Sierpień","emails_introduction":0,"meetings":4,"emails_offers":0,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":8,"month_name":"Sierpień","emails_introduction":1,"meetings":5,"emails_offers":0,"phone_calls":2,"contracts_signed":1},
+                    {"team_member":"Bartek Z.","month_number":8,"month_name":"Sierpień","emails_introduction":12,"meetings":2,"emails_offers":1,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":8,"month_name":"Sierpień","emails_introduction":9,"meetings":3,"emails_offers":1,"phone_calls":20,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":8,"month_name":"Sierpień","emails_introduction":10,"meetings":2,"emails_offers":4,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":8,"month_name":"Sierpień","emails_introduction":10,"meetings":2,"emails_offers":2,"phone_calls":20,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":8,"month_name":"Sierpień","emails_introduction":45,"meetings":2,"emails_offers":0,"phone_calls":28,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":8,"month_name":"Sierpień","emails_introduction":17,"meetings":0,"emails_offers":2,"phone_calls":23,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":8,"month_name":"Sierpień","emails_introduction":16,"meetings":3,"emails_offers":3,"phone_calls":25,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":8,"month_name":"Sierpień","emails_introduction":32,"meetings":3,"emails_offers":1,"phone_calls":23,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":9,"month_name":"Wrzesień","emails_introduction":2,"meetings":3,"emails_offers":3,"phone_calls":14,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":9,"month_name":"Wrzesień","emails_introduction":3,"meetings":0,"emails_offers":4,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":9,"month_name":"Wrzesień","emails_introduction":3,"meetings":2,"emails_offers":5,"phone_calls":11,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":9,"month_name":"Wrzesień","emails_introduction":1,"meetings":3,"emails_offers":3,"phone_calls":11,"contracts_signed":1},
+                    {"team_member":"Dawid S.","month_number":9,"month_name":"Wrzesień","emails_introduction":0,"meetings":3,"emails_offers":0,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":9,"month_name":"Wrzesień","emails_introduction":10,"meetings":3,"emails_offers":3,"phone_calls":16,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":9,"month_name":"Wrzesień","emails_introduction":12,"meetings":2,"emails_offers":2,"phone_calls":14,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":9,"month_name":"Wrzesień","emails_introduction":13,"meetings":2,"emails_offers":4,"phone_calls":19,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":9,"month_name":"Wrzesień","emails_introduction":4,"meetings":1,"emails_offers":2,"phone_calls":14,"contracts_signed":0},
+                    {"team_member":"Dawid K.","month_number":9,"month_name":"Wrzesień","emails_introduction":0,"meetings":1,"emails_offers":2,"phone_calls":0,"contracts_signed":1},
+                    {"team_member":"Piotr","month_number":9,"month_name":"Wrzesień","emails_introduction":12,"meetings":10,"emails_offers":5,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":9,"month_name":"Wrzesień","emails_introduction":6,"meetings":4,"emails_offers":4,"phone_calls":8,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":9,"month_name":"Wrzesień","emails_introduction":4,"meetings":4,"emails_offers":3,"phone_calls":5,"contracts_signed":1},
+                    {"team_member":"Piotr","month_number":9,"month_name":"Wrzesień","emails_introduction":2,"meetings":4,"emails_offers":1,"phone_calls":3,"contracts_signed":0},
+                    {"team_member":"Piotr","month_number":9,"month_name":"Wrzesień","emails_introduction":4,"meetings":4,"emails_offers":4,"phone_calls":5,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":9,"month_name":"Wrzesień","emails_introduction":2,"meetings":4,"emails_offers":1,"phone_calls":1,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":9,"month_name":"Wrzesień","emails_introduction":1,"meetings":4,"emails_offers":4,"phone_calls":2,"contracts_signed":0},
+                    {"team_member":"Szymon O.","month_number":9,"month_name":"Wrzesień","emails_introduction":0,"meetings":5,"emails_offers":0,"phone_calls":0,"contracts_signed":1},
+                    {"team_member":"Szymon O.","month_number":9,"month_name":"Wrzesień","emails_introduction":1,"meetings":3,"emails_offers":1,"phone_calls":1,"contracts_signed":1},
+                    {"team_member":"Szymon O.","month_number":9,"month_name":"Wrzesień","emails_introduction":1,"meetings":0,"emails_offers":0,"phone_calls":0,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":9,"month_name":"Wrzesień","emails_introduction":11,"meetings":3,"emails_offers":3,"phone_calls":15,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":9,"month_name":"Wrzesień","emails_introduction":20,"meetings":2,"emails_offers":5,"phone_calls":20,"contracts_signed":0},
+                    {"team_member":"Bartek Z.","month_number":9,"month_name":"Wrzesień","emails_introduction":10,"meetings":4,"emails_offers":5,"phone_calls":10,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":9,"month_name":"Wrzesień","emails_introduction":14,"meetings":1,"emails_offers":2,"phone_calls":22,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":9,"month_name":"Wrzesień","emails_introduction":15,"meetings":2,"emails_offers":3,"phone_calls":17,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":9,"month_name":"Wrzesień","emails_introduction":5,"meetings":0,"emails_offers":3,"phone_calls":18,"contracts_signed":0},
+                    {"team_member":"Szymon S.","month_number":9,"month_name":"Wrzesień","emails_introduction":12,"meetings":2,"emails_offers":3,"phone_calls":21,"contracts_signed":0},
+                    {"team_member":"Dawid S.","month_number":10,"month_name":"Październik","emails_introduction":0,"meetings":5,"emails_offers":4,"phone_calls":9,"contracts_signed":0}
+                ],
+
+                volumeData: [
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Bazalt","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":20,"Suma_Wolumenu":25},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Drop","Typ_Kontraktu":"New Business","Wolumen_Startowy":15,"Wolumen_Dodatkowy":20,"Suma_Wolumenu":35},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Everdeck","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":10,"Suma_Wolumenu":15},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"FILL","Typ_Kontraktu":"New Business","Wolumen_Startowy":15,"Wolumen_Dodatkowy":20,"Suma_Wolumenu":35},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Ferita","Typ_Kontraktu":"New Business","Wolumen_Startowy":0,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":0},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Fungus","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":10,"Suma_Wolumenu":15},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"MWH Meble","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":5,"Suma_Wolumenu":10},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Natsu","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":20,"Suma_Wolumenu":30},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"PackProfil","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":10,"Suma_Wolumenu":15},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Pantos Nowa Wieś/LG","Typ_Kontraktu":"New Business","Wolumen_Startowy":20,"Wolumen_Dodatkowy":130,"Suma_Wolumenu":150},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Refresco","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":10,"Suma_Wolumenu":15},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Rossmann","Typ_Kontraktu":"New Business","Wolumen_Startowy":0,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":0},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Servis","Typ_Kontraktu":"New Business","Wolumen_Startowy":3,"Wolumen_Dodatkowy":5,"Suma_Wolumenu":8},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Blachere","Typ_Kontraktu":"Portfel","Wolumen_Startowy":30,"Wolumen_Dodatkowy":30,"Suma_Wolumenu":60},
+                    {"Rok":2025,"Sprzedawca":"Dawid K.","Klient":"Rhenus","Typ_Kontraktu":"Portfel","Wolumen_Startowy":16,"Wolumen_Dodatkowy":50,"Suma_Wolumenu":66},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"ADEX COSMETICS & PHARMA","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":53,"Suma_Wolumenu":63},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"BARWA SYSTEM","Typ_Kontraktu":"New Business","Wolumen_Startowy":6,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":6},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"BUDIZOL","Typ_Kontraktu":"New Business","Wolumen_Startowy":20,"Wolumen_Dodatkowy":14,"Suma_Wolumenu":34},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"DAM-ROB","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":10},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"EUROS ENERGY","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":4,"Suma_Wolumenu":9},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"FULL-CLEANING","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":14,"Suma_Wolumenu":24},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"Gospodarstwo Cichocki","Typ_Kontraktu":"New Business","Wolumen_Startowy":6,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":6},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"KULIKGO","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":10},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"MATPOL","Typ_Kontraktu":"New Business","Wolumen_Startowy":4,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":4},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"PIEKARNIA CHYLAK","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":10},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"PRODMAX","Typ_Kontraktu":"New Business","Wolumen_Startowy":6,"Wolumen_Dodatkowy":8,"Suma_Wolumenu":14},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"SZKŁOMAL","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":10},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"Sienkiewicz MAT-BUD","Typ_Kontraktu":"New Business","Wolumen_Startowy":20,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":20},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"BAKS","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":109,"Suma_Wolumenu":109},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"BUD-MASZ","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":5,"Suma_Wolumenu":5},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"METALKAS","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":25,"Suma_Wolumenu":25},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"NIFCO","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":52,"Suma_Wolumenu":52},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"PACZKA SMAKU","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":63,"Suma_Wolumenu":63},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"RELAX","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":4,"Suma_Wolumenu":4},
+                    {"Rok":2025,"Sprzedawca":"Dawid S.","Klient":"SIMOLDES (Żory + Jelcz)","Typ_Kontraktu":"Portfel","Wolumen_Startowy":0,"Wolumen_Dodatkowy":153,"Suma_Wolumenu":153},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"Baczewski","Typ_Kontraktu":"New Business","Wolumen_Startowy":3,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":3},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"Center-Mebel","Typ_Kontraktu":"New Business","Wolumen_Startowy":3,"Wolumen_Dodatkowy":2,"Suma_Wolumenu":5},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"Cymes","Typ_Kontraktu":"New Business","Wolumen_Startowy":3,"Wolumen_Dodatkowy":2,"Suma_Wolumenu":5},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"Diagnosis","Typ_Kontraktu":"New Business","Wolumen_Startowy":4,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":4},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"Equalan Pharma","Typ_Kontraktu":"New Business","Wolumen_Startowy":2,"Wolumen_Dodatkowy":10,"Suma_Wolumenu":12},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"JBB","Typ_Kontraktu":"New Business","Wolumen_Startowy":10,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":10},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"Mackiewicz","Typ_Kontraktu":"New Business","Wolumen_Startowy":5,"Wolumen_Dodatkowy":1,"Suma_Wolumenu":6},
+                    {"Rok":2025,"Sprzedawca":"Szymon O.","Klient":"PPH Magma","Typ_Kontraktu":"New Business","Wolumen_Startowy":2,"Wolumen_Dodatkowy":0,"Suma_Wolumenu":2}
+                ],
+
+                months: [
+                    {num: 1, name: 'Styczeń'}, {num: 2, name: 'Luty'}, {num: 3, name: 'Marzec'},
+                    {num: 4, name: 'Kwiecień'}, {num: 5, name: 'Maj'}, {num: 6, name: 'Czerwiec'},
+                    {num: 7, name: 'Lipiec'}, {num: 8, name: 'Sierpień'}, {num: 9, name: 'Wrzesień'},
+                    {num: 10, name: 'Październik'}, {num: 11, name: 'Listopad'}, {num: 12, name: 'Grudzień'}
+                ],
+
+                get filteredMetrics() {
+                    let data = this.weeklyMetrics;
+                    if (this.selectedMonth !== 'all') {
+                        data = data.filter(d => d.month_number == this.selectedMonth);
+                    }
+                    if (this.selectedMember !== 'all') {
+                        data = data.filter(d => d.team_member === this.selectedMember);
+                    }
+                    return data;
+                },
+
+                get teamMembers() {
+                    return [...new Set(this.weeklyMetrics.map(d => d.team_member))].sort();
+                },
+
+                get totalMeetings() {
+                    return this.weeklyMetrics.reduce((sum, d) => sum + d.meetings, 0);
+                },
+
+                get totalContracts() {
+                    return this.weeklyMetrics.reduce((sum, d) => sum + d.contracts_signed, 0);
+                },
+
+                get conversionRate() {
+                    const meetings = this.totalMeetings;
+                    const contracts = this.totalContracts;
+                    return meetings > 0 ? ((contracts / meetings) * 100).toFixed(1) : 0;
+                },
+
+                get totalActivity() {
+                    return this.weeklyMetrics.reduce((sum, d) => sum + d.emails_introduction + d.emails_offers + d.phone_calls, 0);
+                },
+
+                get rankedMembers() {
+                    const memberStats = {};
+                    this.filteredMetrics.forEach(d => {
+                        if (!memberStats[d.team_member]) {
+                            memberStats[d.team_member] = { meetings: 0, contracts: 0 };
+                        }
+                        memberStats[d.team_member].meetings += d.meetings;
+                        memberStats[d.team_member].contracts += d.contracts_signed;
+                    });
+
+                    return Object.keys(memberStats).map(name => ({
+                        name,
+                        meetings: memberStats[name].meetings,
+                        contracts: memberStats[name].contracts,
+                        conversion: memberStats[name].meetings > 0 
+                            ? ((memberStats[name].contracts / memberStats[name].meetings) * 100).toFixed(1) 
+                            : 0
+                    })).sort((a, b) => b.contracts - a.contracts);
+                },
+
+                get top3Sellers() {
+                    const sellerStats = {};
+                    this.volumeData.forEach(d => {
+                        if (!sellerStats[d.Sprzedawca]) {
+                            sellerStats[d.Sprzedawca] = { totalVolume: 0, newBusiness: 0, portfolio: 0 };
+                        }
+                        sellerStats[d.Sprzedawca].totalVolume += d.Suma_Wolumenu;
+                        if (d.Typ_Kontraktu === 'New Business') {
+                            sellerStats[d.Sprzedawca].newBusiness += d.Suma_Wolumenu;
+                        } else {
+                            sellerStats[d.Sprzedawca].portfolio += d.Suma_Wolumenu;
+                        }
+                    });
+
+                    return Object.keys(sellerStats).map(name => ({
+                        name,
+                        ...sellerStats[name]
+                    })).sort((a, b) => b.totalVolume - a.totalVolume).slice(0, 3);
+                },
+
+                get aiInsights() {
+                    const insights = [];
+                    
+                    // Insight 1: Best converter
+                    const bestConverter = this.rankedMembers[0];
+                    if (bestConverter) {
+                        insights.push(`${bestConverter.name} ma najwyższą skuteczność domykania kontraktów: ${bestConverter.contracts} kontraktów z ${bestConverter.meetings} spotkań (${bestConverter.conversion}% conv.).`);
+                    }
+
+                    // Insight 2: Total volume
+                    const totalVolume = this.volumeData.reduce((sum, d) => sum + d.Suma_Wolumenu, 0);
+                    const newBusinessVolume = this.volumeData.filter(d => d.Typ_Kontraktu === 'New Business').reduce((sum, d) => sum + d.Suma_Wolumenu, 0);
+                    const nbPercentage = ((newBusinessVolume / totalVolume) * 100).toFixed(0);
+                    insights.push(`Dominacja New Business: ${nbPercentage}% całkowitego wolumenu (${newBusinessVolume} z ${totalVolume}) pochodzi z nowych klientów.`);
+
+                    // Insight 3: Activity correlation
+                    insights.push(`Zespół przeprowadził ${this.totalMeetings} spotkań i wykonał ${this.totalActivity} aktywności sprzedażowych, co przełożyło się na ${this.totalContracts} podpisanych kontraktów.`);
+
+                    return insights;
+                },
+
+                init() {
+                    this.$nextTick(() => {
+                        this.renderEffortChart();
+                        this.renderFunnelChart();
+                        this.renderMonthlyActivityChart();
+                        this.renderBusinessTypeChart();
+                        this.renderTop3ComparisonChart();
+                    });
+                },
+
+                renderEffortChart() {
+                    const monthlyData = {};
+                    this.weeklyMetrics.forEach(d => {
+                        if (!monthlyData[d.month_name]) {
+                            monthlyData[d.month_name] = { activity: 0, contracts: 0 };
+                        }
+                        monthlyData[d.month_name].activity += d.emails_introduction + d.emails_offers + d.phone_calls;
+                        monthlyData[d.month_name].contracts += d.contracts_signed;
+                    });
+
+                    const labels = Object.keys(monthlyData);
+                    const activityData = labels.map(m => monthlyData[m].activity);
+                    const contractsData = labels.map(m => monthlyData[m].contracts);
+
+                    new Chart(document.getElementById('effortChart'), {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Aktywność (Maile + Telefony)',
+                                data: activityData,
+                                borderColor: '#3b82f6',
+                                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                                yAxisID: 'y',
+                                tension: 0.4
+                            }, {
+                                label: 'Kontrakty',
+                                data: contractsData,
+                                borderColor: '#10b981',
+                                backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                                yAxisID: 'y1',
+                                tension: 0.4
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { labels: { color: '#cbd5e1' } }
+                            },
+                            scales: {
+                                y: {
+                                    type: 'linear',
+                                    position: 'left',
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { color: 'rgba(148, 163, 184, 0.1)' }
+                                },
+                                y1: {
+                                    type: 'linear',
+                                    position: 'right',
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { drawOnChartArea: false }
+                                },
+                                x: {
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { color: 'rgba(148, 163, 184, 0.1)' }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                renderFunnelChart() {
+                    const totalIntroEmails = this.filteredMetrics.reduce((s, d) => s + d.emails_introduction, 0);
+                    const totalMeetings = this.filteredMetrics.reduce((s, d) => s + d.meetings, 0);
+                    const totalOfferEmails = this.filteredMetrics.reduce((s, d) => s + d.emails_offers, 0);
+                    const totalContracts = this.filteredMetrics.reduce((s, d) => s + d.contracts_signed, 0);
+
+                    new Chart(document.getElementById('funnelChart'), {
+                        type: 'bar',
+                        data: {
+                            labels: ['Maile Intro', 'Spotkania', 'Maile Oferty', 'Kontrakty'],
+                            datasets: [{
+                                label: 'Lejek Sprzedaży',
+                                data: [totalIntroEmails, totalMeetings, totalOfferEmails, totalContracts],
+                                backgroundColor: ['#3b82f6', '#8b5cf6', '#f59e0b', '#10b981']
+                            }]
+                        },
+                        options: {
+                            indexAxis: 'y',
+                            responsive: true,
+                            plugins: {
+                                legend: { display: false }
+                            },
+                            scales: {
+                                x: {
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { color: 'rgba(148, 163, 184, 0.1)' }
+                                },
+                                y: {
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { display: false }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                renderMonthlyActivityChart() {
+                    const monthlyActivity = {};
+                    this.filteredMetrics.forEach(d => {
+                        if (!monthlyActivity[d.month_name]) {
+                            monthlyActivity[d.month_name] = { meetings: 0, emails: 0, calls: 0 };
+                        }
+                        monthlyActivity[d.month_name].meetings += d.meetings;
+                        monthlyActivity[d.month_name].emails += d.emails_introduction + d.emails_offers;
+                        monthlyActivity[d.month_name].calls += d.phone_calls;
+                    });
+
+                    const labels = Object.keys(monthlyActivity);
+
+                    new Chart(document.getElementById('monthlyActivityChart'), {
+                        type: 'bar',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: 'Spotkania',
+                                    data: labels.map(m => monthlyActivity[m].meetings),
+                                    backgroundColor: '#10b981'
+                                },
+                                {
+                                    label: 'Maile',
+                                    data: labels.map(m => monthlyActivity[m].emails),
+                                    backgroundColor: '#3b82f6'
+                                },
+                                {
+                                    label: 'Telefony',
+                                    data: labels.map(m => monthlyActivity[m].calls),
+                                    backgroundColor: '#f59e0b'
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { labels: { color: '#cbd5e1' } }
+                            },
+                            scales: {
+                                x: {
+                                    stacked: false,
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { display: false }
+                                },
+                                y: {
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { color: 'rgba(148, 163, 184, 0.1)' }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                renderBusinessTypeChart() {
+                    const newBusiness = this.volumeData.filter(d => d.Typ_Kontraktu === 'New Business').reduce((s, d) => s + d.Suma_Wolumenu, 0);
+                    const portfolio = this.volumeData.filter(d => d.Typ_Kontraktu === 'Portfel').reduce((s, d) => s + d.Suma_Wolumenu, 0);
+
+                    new Chart(document.getElementById('businessTypeChart'), {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['New Business', 'Portfel'],
+                            datasets: [{
+                                data: [newBusiness, portfolio],
+                                backgroundColor: ['#3b82f6', '#8b5cf6']
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { labels: { color: '#cbd5e1' } }
+                            }
+                        }
+                    });
+                },
+
+                renderTop3ComparisonChart() {
+                    const top3 = this.top3Sellers;
+
+                    new Chart(document.getElementById('top3ComparisonChart'), {
+                        type: 'bar',
+                        data: {
+                            labels: top3.map(s => s.name),
+                            datasets: [{
+                                label: 'Całkowity Wolumen',
+                                data: top3.map(s => s.totalVolume),
+                                backgroundColor: '#10b981'
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { display: false }
+                            },
+                            scales: {
+                                x: {
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { display: false }
+                                },
+                                y: {
+                                    ticks: { color: '#cbd5e1' },
+                                    grid: { color: 'rgba(148, 163, 184, 0.1)' }
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+        }
+>>>>>>> c626d6d (Initial dashboard commit)
+    </script>
+</body>
+</html>

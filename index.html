@@ -3,82 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Dawid S. - 2025 Strategic Sales Intelligence</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
-        
-        /* GŁÓWNE TŁO: Głębokie, żywe navy blue */
-        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #e2e8f0; }
-        .font-mono { font-family: 'JetBrains Mono', monospace; }
-
-        /* PANEL SZKLANY: Wysoka nieprzezroczystość (0.8) dla efektu głębi */
-        .glass-panel {
-            background: rgba(30, 41, 59, 0.8);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(148, 163, 184, 0.1);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-        }
-
-        /* PODŚWIETLENIE EXECUTIVE SUMMARY */
-        .exec-summary-box {
-            background: linear-gradient(180deg, rgba(30, 41, 59, 0.9) 0%, rgba(30, 58, 138, 0.3) 100%);
-            border-left: 4px solid #4ade80; 
-        }
-
-        /* EFEKT KPI: Glow przy najechaniu */
-        .kpi-card {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .kpi-card:hover {
-            transform: translateY(-4px);
-            border-color: #3b82f6; 
-            box-shadow: 0 15px 30px -5px rgba(59, 130, 246, 0.3);
-        }
-
-        /* STATUS ONLINE: Pulsująca dioda */
-        @keyframes pulse-ring {
-            0% { transform: scale(0.8); opacity: 0.8; }
-            100% { transform: scale(2); opacity: 0; }
-        }
-        .pulse-ring::before {
-            content: '';
-            position: absolute;
-            left: 0; top: 0;
-            width: 100%; height: 100%;
-            background-color: #4ade80; 
-            border-radius: 50%;
-            z-index: -1;
-            animation: pulse-ring 2s infinite;
-        }
-    </style>
-</head>
-<body class="min-h-screen p-4 lg:p-8">
-
-    <!-- Header Section -->
-    <header class="mb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-slate-700 pb-6">
-        <div>
-            <div class="flex items-center gap-3 mb-2">
-                <div class="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shadow-lg shadow-blue-500/50">
-                    <i class="fa-solid fa-brain text-white text-xl"></i>
-                </div>
-                <h1 class="text-4xl font-extrabold tracking-tight text-white uppercase">HR KONO <span class="text-blue-400">SIKIBI AI Dashboard</span></h1>
-            </div>
-            <p class="text-slate-400 font-mono text-sm tracking-wide">
-                ANALYTICS TARGET: <span class="text-white font-bold">DAWID S.</span> | <span class="text-blue-400 font-bold">2025 ANNUAL REVIEW</span>
-            </p>
-        </div>
-        
-        <div class="flex items-center gap-4">
-            <div class="text-right">
-                <div class="text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-1">Risk Analysis Status</div>
-                <div class="flex items-center gap-2 bg-slate-800 px-4 py-1.5 rounded-full border border-slate-700 shadow-xl">
-                    <span class="relative w-2 h-2 bg-green-500 rounded-full pulse-ring"></span>
-                    <span class="text-xs font-mono text-green-400 font-bold tracking-tight">AI VERIFIED DATA</span>
-=======
     <title>2025 SALES TEAM AI DASHBOARD</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -142,157 +66,11 @@
                             class="px-4 py-2 rounded-lg font-semibold transition">
                         TOP 3
                     </button>
->>>>>>> c626d6d (Initial dashboard commit)
                 </div>
             </div>
         </div>
     </header>
 
-<<<<<<< HEAD
-    <!-- EXECUTIVE SUMMARY -->
-    <div class="glass-panel rounded-2xl p-0 mb-8 overflow-hidden exec-summary-box relative group">
-        <div class="h-1 w-full bg-gradient-to-r from-green-500 via-blue-500 to-purple-500"></div>
-        
-        <div class="p-8 relative z-10">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-bolt text-amber-400 text-xl animate-pulse"></i>
-                <h2 class="text-sm font-mono font-bold text-blue-400 tracking-widest uppercase">STRATEGIC SALES INSIGHT_</h2>
-            </div>
-            
-            <p class="text-slate-200 text-lg leading-relaxed font-normal">
-                Analiza algorytmiczna roku 2025 wskazuje na <span class="text-white font-bold bg-blue-600/40 px-2 py-0.5 rounded border border-blue-400/30">przejście od modelu "Hunter" do modelu "Strategic Farmer"</span>. 
-                Dawid S. osiągnął rekordowy wolumen <span class="text-green-400 font-extrabold text-3xl drop-shadow-[0_0_12px_rgba(74,222,128,0.5)]">631 osób</span> przy optymalizacji nakładów pracy (Efficiency Ratio). 
-                Kluczowym sukcesem jest <span class="text-blue-300 font-semibold border-b-2 border-blue-500/50 border-dotted">minimalizacja ryzyka utraty przychodów</span> poprzez agresywny upselling u klientów kluczowych (Simoldes, BAKS) 
-                oraz dywersyfikację portfela o 13 nowych klientów dowożąc sprzedaż w warunkach zwiększonej presji kontrolnej u kluczowych partnerów.
-            </p>
-        </div>
-        <div class="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition duration-500">
-            <i class="fa-solid fa-chess-knight text-9xl text-white"></i>
-        </div>
-    </div>
-
-    <!-- KPI GRID -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-green-500/20">
-            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-users text-5xl text-green-500"></i></div>
-            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">Volume 2025</p>
-            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">631</h3>
-            <div class="flex items-center gap-2 text-xs font-bold text-green-400 bg-green-900/40 w-fit px-2 py-1 rounded border border-green-500/30">
-                <i class="fa-solid fa-chart-line"></i> RECORD YEAR
-            </div>
-        </div>
-
-        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-blue-500/20">
-            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-hand-holding-dollar text-5xl text-blue-500"></i></div>
-            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">Upselling Share</p>
-            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">79.9%</h3>
-            <p class="text-xs text-blue-300 font-semibold tracking-wide uppercase">Stabilność portfela</p>
-        </div>
-
-        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-purple-500/20">
-            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-bullseye text-5xl text-purple-500"></i></div>
-            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">New Logos</p>
-            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">13</h3>
-            <p class="text-xs text-slate-400">Nowe kontrakty (Hunter)</p>
-        </div>
-
-        <div class="glass-panel rounded-xl p-6 kpi-card relative overflow-hidden border-amber-500/20">
-            <div class="absolute top-0 right-0 p-3 opacity-20"><i class="fa-solid fa-forward-step text-5xl text-amber-500"></i></div>
-            <p class="text-slate-400 text-xs font-bold uppercase tracking-wider font-mono">Q1 2026 Pipeline</p>
-            <h3 class="text-5xl font-extrabold text-white mt-1 mb-2 tracking-tighter">12+</h3>
-            <p class="text-xs text-amber-400 font-bold uppercase tracking-tight">Secured & Ready</p>
-        </div>
-    </div>
-
-    <!-- MAIN DATA VIEW -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-        <!-- Wykres -->
-        <div class="lg:col-span-2 glass-panel rounded-xl p-6">
-            <div class="flex justify-between items-center mb-8">
-                <h3 class="text-white font-bold flex items-center gap-2 uppercase tracking-wide">
-                    <i class="fa-solid fa-gauge-high text-blue-500"></i> 
-                    Performance Efficiency Matrix
-                </h3>
-                <div class="flex gap-4 text-[10px] font-mono">
-                    <span class="flex items-center gap-1 text-green-400"><i class="fa-solid fa-circle"></i> Volume</span>
-                    <span class="flex items-center gap-1 text-blue-400"><i class="fa-solid fa-circle"></i> Activity</span>
-                </div>
-            </div>
-            <div class="relative h-72 w-full">
-                <canvas id="efficiencyChart"></canvas>
-            </div>
-        </div>
-
-        <!-- RISK & MARGIN INTELLIGENCE (Przywrócona treść merytoryczna) -->
-        <div class="glass-panel rounded-xl p-0 overflow-hidden flex flex-col border-blue-500/20">
-            <div class="p-4 bg-gradient-to-r from-blue-700/40 to-slate-800 border-b border-blue-500/30">
-                <h3 class="text-white font-bold flex items-center gap-2 text-sm tracking-wide uppercase">
-                    <i class="fa-solid fa-shield-halved text-amber-400"></i> 
-                    Risk & Margin Intelligence
-                </h3>
-            </div>
-            <div class="p-5 flex-1 space-y-5 bg-slate-900/20 overflow-y-auto font-mono text-xs">
-                <!-- Item 1: Simoldes -->
-                <div class="bg-slate-800/60 p-4 rounded-lg border-l-2 border-green-500 shadow-lg">
-                    <div class="flex justify-between mb-2">
-                        <span class="text-white font-bold text-sm">Simoldes (153 os.)</span>
-                        <span class="bg-green-900 text-green-400 px-2 py-0.5 rounded text-[10px] font-bold">SECURE</span>
-                    </div>
-                    <p class="text-slate-400 leading-relaxed italic">Kluczowy klient. Kryzys presji organów kontrolnych zabezpieczony, zbudowana solidna podstawa pod dalszy rozwój..</p>
-                </div>
-                <!-- Item 2: Adex Pharma -->
-                <div class="bg-slate-800/60 p-4 rounded-lg border-l-2 border-blue-500 shadow-lg">
-                    <div class="flex justify-between mb-2">
-                        <span class="text-white font-bold text-sm">Adex Pharma (63 os.)</span>
-                        <span class="bg-blue-900 text-blue-400 px-2 py-0.5 rounded text-[10px] font-bold">GROWTH</span>
-                    </div>
-                    <p class="text-slate-400 leading-relaxed italic">Dywersyfikacja. Wysoka marżowość sektora Pharma. Zabezpiecza wynik w Q3.</p>
-                </div>
-                <!-- Item 3: BAKS -->
-                <div class="bg-slate-800/60 p-4 rounded-lg border-l-2 border-purple-500 shadow-lg">
-                    <div class="flex justify-between mb-2">
-                        <span class="text-white font-bold text-sm">BAKS (109 os.)</span>
-                        <span class="bg-purple-900 text-purple-400 px-2 py-0.5 rounded text-[10px] font-bold">STABLE</span>
-                    </div>
-                    <p class="text-slate-400 leading-relaxed italic">Strategiczne utrzymanie. Wolumen >100. Wymaga stałej opieki (Strategic Farmer).</p>
-                </div>
-            </div>
-            <div class="p-3 bg-slate-800/50 text-center border-t border-slate-700">
-                <p class="text-[10px] text-slate-500 font-mono uppercase font-bold tracking-widest">Recommendation: Margin Optimization</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- ROADMAP -->
-    <div class="glass-panel rounded-xl p-6 border border-slate-700 shadow-2xl relative">
-        <h3 class="text-slate-400 font-mono text-xs uppercase mb-8 tracking-[0.2em] font-bold">2025 Strategic Roadmap Execution</h3>
-        <div class="relative">
-            <div class="absolute top-1/2 left-0 w-full h-1 bg-slate-700/50 -translate-y-1/2 rounded-full overflow-hidden">
-                <div class="h-full bg-blue-500 w-[95%] shadow-[0_0_15px_rgba(59,130,246,0.6)]"></div>
-            </div>
-            
-            <div class="grid grid-cols-4 gap-4 relative z-10">
-                <div class="text-center group">
-                    <div class="w-5 h-5 bg-blue-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_20px_rgba(59,130,246,0.8)] group-hover:scale-125 transition"></div>
-                    <h4 class="text-white font-bold text-sm">Q1: Acquisition</h4>
-                    <p class="text-[10px] text-blue-300 uppercase font-bold mt-1">BIG UPSELLING ACTION</p>
-                </div>
-                <div class="text-center group">
-                    <div class="w-5 h-5 bg-blue-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_20px_rgba(59,130,246,0.8)] group-hover:scale-125 transition"></div>
-                    <h4 class="text-white font-bold text-sm">Q2: Development</h4>
-                    <p class="text-[10px] text-blue-300 uppercase font-bold mt-1">Scaling Majors</p>
-                </div>
-                <div class="text-center group">
-                    <div class="w-5 h-5 bg-green-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_25px_rgba(74,222,128,0.8)] group-hover:scale-125 transition"></div>
-                    <h4 class="text-green-400 font-bold text-sm">Q3: Diversify</h4>
-                    <p class="text-[10px] text-green-300 uppercase font-bold mt-1">Pharma Entry</p>
-                </div>
-                <div class="text-center group">
-                    <div class="w-5 h-5 bg-amber-500 rounded-full mx-auto mb-3 border-4 border-slate-900 shadow-[0_0_25px_rgba(245,158,11,0.8)] group-hover:scale-125 transition"></div>
-                    <h4 class="text-amber-400 font-bold text-sm">Q4: Q1 Prep</h4>
-                    <p class="text-[10px] text-amber-300 uppercase font-bold mt-1">12+ Secured</p>
-                </div>
-=======
     <!-- FILTRY -->
     <div class="glass-card rounded-xl p-4 mb-6" x-show="currentView !== 'overview'">
         <div class="flex flex-wrap gap-4">
@@ -452,72 +230,10 @@
             <div class="glass-card rounded-xl p-6">
                 <h3 class="text-xl font-bold text-white mb-4">Porównanie Wolumenu TOP 3</h3>
                 <canvas id="top3ComparisonChart"></canvas>
->>>>>>> c626d6d (Initial dashboard commit)
             </div>
         </div>
     </div>
 
-<<<<<<< HEAD
-    <script>
-        const ctx = document.getElementById('efficiencyChart').getContext('2d');
-        const gradientBlue = ctx.createLinearGradient(0, 0, 0, 400);
-        gradientBlue.addColorStop(0, 'rgba(59, 130, 246, 0.6)');
-        gradientBlue.addColorStop(1, 'rgba(59, 130, 246, 0.05)');
-
-        new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: ['Sty', 'Lut', 'Mar', 'Kwi', 'Maj', 'Cze', 'Lip', 'Sie', 'Wrz', 'Paź', 'Lis', 'Gru'],
-                datasets: [
-                    {
-                        label: 'Volume (Growth Line)',
-                        data: [140, 180, 220, 260, 320, 380, 420, 480, 530, 560, 600, 631],
-                        borderColor: '#4ade80',
-                        borderWidth: 4,
-                        pointBackgroundColor: '#0f172a',
-                        pointBorderColor: '#4ade80',
-                        pointBorderWidth: 2,
-                        pointRadius: 4,
-                        tension: 0.4,
-                        yAxisID: 'y'
-                    },
-                    {
-                        label: 'Sales Intensity Index',
-                        data: [45, 40, 50, 35, 60, 45, 30, 65, 55, 50, 60, 70],
-                        backgroundColor: gradientBlue,
-                        borderColor: '#3b82f6',
-                        borderWidth: 2,
-                        fill: true,
-                        tension: 0.4,
-                        yAxisID: 'y1'
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: { display: false }
-                },
-                scales: {
-                    x: {
-                        grid: { color: 'rgba(148, 163, 184, 0.05)' },
-                        ticks: { color: '#64748b', font: { weight: 'bold' } }
-                    },
-                    y: {
-                        position: 'left',
-                        grid: { color: 'rgba(148, 163, 184, 0.1)' },
-                        ticks: { color: '#4ade80', font: { weight: 'bold' } }
-                    },
-                    y1: {
-                        position: 'right',
-                        grid: { display: false },
-                        ticks: { display: false }
-                    }
-                }
-            }
-        });
-=======
     <!-- SEKCJA 4: AI INSIGHTS -->
     <div class="glass-card rounded-xl p-6 mt-8">
         <div class="flex items-center gap-3 mb-4">
@@ -1132,7 +848,6 @@
                 }
             }
         }
->>>>>>> c626d6d (Initial dashboard commit)
     </script>
 </body>
 </html>

@@ -666,8 +666,16 @@
                     }
 
                     // Insight 2: Total volume
-                    const totalVolume = this.volumeData.reduce((sum, d) => sum + d.Suma_Wolumenu, 0);
-                    const newBusinessVolume = this.volumeData.filter(d => d.Typ_Kontraktu === 'New Business').reduce((sum, d) => sum + d.Suma_Wolumenu, 0);
+                    const volumes = this.volumeData.reduce((acc, d) => {
+                        acc.total += d.Suma_Wolumenu;
+                        if (d.Typ_Kontraktu === 'New Business') {
+                            acc.newBusiness += d.Suma_Wolumenu;
+                        }
+                        return acc;
+                    }, { total: 0, newBusiness: 0 });
+
+                    const totalVolume = volumes.total;
+                    const newBusinessVolume = volumes.newBusiness;
                     const nbPercentage = ((newBusinessVolume / totalVolume) * 100).toFixed(0);
                     insights.push(`Dominacja New Business: ${nbPercentage}% całkowitego wolumenu (${newBusinessVolume} z ${totalVolume}) pochodzi z nowych klientów.`);
 

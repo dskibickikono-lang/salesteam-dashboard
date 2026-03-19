@@ -255,6 +255,7 @@
                 currentView: 'overview',
                 selectedMonth: 'all',
                 selectedMember: 'all',
+                charts: {},
                 
                 // REAL DATA FROM CSV FILES (COMPLETED)
                 weeklyMetrics: [
@@ -701,7 +702,11 @@
                     const activityData = labels.map(m => monthlyData[m].activity);
                     const contractsData = labels.map(m => monthlyData[m].contracts);
 
-                    new Chart(document.getElementById('effortChart'), {
+                    if (this.charts.effort) {
+                        this.charts.effort.destroy();
+                    }
+
+                    this.charts.effort = new Chart(document.getElementById('effortChart'), {
                         type: 'line',
                         data: {
                             labels: labels,
@@ -756,7 +761,11 @@
                     const totalOfferEmails = this.filteredMetrics.reduce((s, d) => s + d.emails_offers, 0);
                     const totalContracts = this.filteredMetrics.reduce((s, d) => s + d.contracts_signed, 0);
 
-                    new Chart(document.getElementById('funnelChart'), {
+                    if (this.charts.funnel) {
+                        this.charts.funnel.destroy();
+                    }
+
+                    this.charts.funnel = new Chart(document.getElementById('funnelChart'), {
                         type: 'bar',
                         data: {
                             labels: ['Maile Intro', 'Spotkania', 'Maile Oferty', 'Kontrakty'],
@@ -799,7 +808,11 @@
 
                     const labels = Object.keys(monthlyActivity);
 
-                    new Chart(document.getElementById('monthlyActivityChart'), {
+                    if (this.charts.monthlyActivity) {
+                        this.charts.monthlyActivity.destroy();
+                    }
+
+                    this.charts.monthlyActivity = new Chart(document.getElementById('monthlyActivityChart'), {
                         type: 'bar',
                         data: {
                             labels: labels,
@@ -845,7 +858,11 @@
                     const newBusiness = this.volumeData.filter(d => d.Typ_Kontraktu === 'New Business').reduce((s, d) => s + d.Suma_Wolumenu, 0);
                     const portfolio = this.volumeData.filter(d => d.Typ_Kontraktu === 'Portfel').reduce((s, d) => s + d.Suma_Wolumenu, 0);
 
-                    new Chart(document.getElementById('businessTypeChart'), {
+                    if (this.charts.businessType) {
+                        this.charts.businessType.destroy();
+                    }
+
+                    this.charts.businessType = new Chart(document.getElementById('businessTypeChart'), {
                         type: 'doughnut',
                         data: {
                             labels: ['New Business', 'Portfel'],
@@ -866,7 +883,11 @@
                 renderTop3ComparisonChart() {
                     const top3 = this.top3Sellers;
 
-                    new Chart(document.getElementById('top3ComparisonChart'), {
+                    if (this.charts.top3Comparison) {
+                        this.charts.top3Comparison.destroy();
+                    }
+
+                    this.charts.top3Comparison = new Chart(document.getElementById('top3ComparisonChart'), {
                         type: 'bar',
                         data: {
                             labels: top3.map(s => s.name),

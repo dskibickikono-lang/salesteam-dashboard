@@ -609,7 +609,7 @@
                 get conversionRate() {
                     const meetings = this.totalMeetings;
                     const contracts = this.totalContracts;
-                    return meetings > 0 ? ((contracts / meetings) * 100).toFixed(1) : 0;
+                    return meetings > 0 ? ((contracts / meetings) * 100).toFixed(1) : "0.0";
                 },
 
                 get totalActivity() {

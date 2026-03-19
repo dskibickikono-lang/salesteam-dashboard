@@ -1,0 +1,389 @@
+[
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Bazalt",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 20,
+        "Suma_Wolumenu": 25
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Drop",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 15,
+        "Wolumen_Dodatkowy": 20,
+        "Suma_Wolumenu": 35
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Everdeck",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 10,
+        "Suma_Wolumenu": 15
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "FILL",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 15,
+        "Wolumen_Dodatkowy": 20,
+        "Suma_Wolumenu": 35
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Ferita",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 0
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Fungus",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 10,
+        "Suma_Wolumenu": 15
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "MWH Meble",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 5,
+        "Suma_Wolumenu": 10
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Natsu",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 20,
+        "Suma_Wolumenu": 30
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "PackProfil",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 10,
+        "Suma_Wolumenu": 15
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Pantos Nowa Wieś/LG",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 20,
+        "Wolumen_Dodatkowy": 130,
+        "Suma_Wolumenu": 150
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Refresco",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 10,
+        "Suma_Wolumenu": 15
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Rossmann",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 0
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Servis",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 3,
+        "Wolumen_Dodatkowy": 5,
+        "Suma_Wolumenu": 8
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Blachere",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 30,
+        "Wolumen_Dodatkowy": 30,
+        "Suma_Wolumenu": 60
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid K.",
+        "Klient": "Rhenus",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 16,
+        "Wolumen_Dodatkowy": 50,
+        "Suma_Wolumenu": 66
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "ADEX COSMETICS & PHARMA",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 53,
+        "Suma_Wolumenu": 63
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "BARWA SYSTEM",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 6,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 6
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "BUDIZOL",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 20,
+        "Wolumen_Dodatkowy": 14,
+        "Suma_Wolumenu": 34
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "DAM-ROB",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 10
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "EUROS ENERGY",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 4,
+        "Suma_Wolumenu": 9
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "FULL-CLEANING",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 14,
+        "Suma_Wolumenu": 24
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "Gospodarstwo Cichocki",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 6,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 6
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "KULIKGO",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 10
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "MATPOL",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 4,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 4
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "PIEKARNIA CHYLAK",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 10
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "PRODMAX",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 6,
+        "Wolumen_Dodatkowy": 8,
+        "Suma_Wolumenu": 14
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "SZKŁOMAL",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 10
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "Sienkiewicz MAT-BUD",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 20,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 20
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "BAKS",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 109,
+        "Suma_Wolumenu": 109
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "BUD-MASZ",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 5,
+        "Suma_Wolumenu": 5
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "METALKAS",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 25,
+        "Suma_Wolumenu": 25
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "NIFCO",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 52,
+        "Suma_Wolumenu": 52
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "PACZKA SMAKU",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 63,
+        "Suma_Wolumenu": 63
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "RELAX",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 4,
+        "Suma_Wolumenu": 4
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Dawid S.",
+        "Klient": "SIMOLDES (Żory + Jelcz)",
+        "Typ_Kontraktu": "Portfel",
+        "Wolumen_Startowy": 0,
+        "Wolumen_Dodatkowy": 153,
+        "Suma_Wolumenu": 153
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "Baczewski",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 3,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 3
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "Center-Mebel",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 3,
+        "Wolumen_Dodatkowy": 2,
+        "Suma_Wolumenu": 5
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "Cymes",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 3,
+        "Wolumen_Dodatkowy": 2,
+        "Suma_Wolumenu": 5
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "Diagnosis",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 4,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 4
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "Equalan Pharma",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 2,
+        "Wolumen_Dodatkowy": 10,
+        "Suma_Wolumenu": 12
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "JBB",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 10,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 10
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "Mackiewicz",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 5,
+        "Wolumen_Dodatkowy": 1,
+        "Suma_Wolumenu": 6
+    },
+    {
+        "Rok": 2025,
+        "Sprzedawca": "Szymon O.",
+        "Klient": "PPH Magma",
+        "Typ_Kontraktu": "New Business",
+        "Wolumen_Startowy": 2,
+        "Wolumen_Dodatkowy": 0,
+        "Suma_Wolumenu": 2
+    }
+]

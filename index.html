@@ -609,7 +609,7 @@
                 get conversionRate() {
                     const meetings = this.totalMeetings;
                     const contracts = this.totalContracts;
-                    return meetings > 0 ? ((contracts / meetings) * 100).toFixed(1) : 0;
+                    return (meetings > 0 ? (contracts / meetings) * 100 : 0).toFixed(1);
                 },
 
                 get totalActivity() {
@@ -630,9 +630,9 @@
                         name,
                         meetings: memberStats[name].meetings,
                         contracts: memberStats[name].contracts,
-                        conversion: memberStats[name].meetings > 0 
-                            ? ((memberStats[name].contracts / memberStats[name].meetings) * 100).toFixed(1) 
-                            : 0
+                        conversion: (memberStats[name].meetings > 0
+                            ? (memberStats[name].contracts / memberStats[name].meetings) * 100
+                            : 0).toFixed(1)
                     })).sort((a, b) => b.contracts - a.contracts);
                 },
 

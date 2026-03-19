@@ -1,0 +1,2672 @@
+[
+    {
+        "team_member": "Dawid S.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 19,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 14,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 7,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 2,
+        "meetings": 3,
+        "emails_offers": 7,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 5,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 4,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 5,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 2,
+        "meetings": 4,
+        "emails_offers": 2,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 8,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 21,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 1,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 22,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 1,
+        "meetings": 0,
+        "emails_offers": 4,
+        "phone_calls": 40,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 27,
+        "meetings": 21,
+        "emails_offers": 2,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 15,
+        "meetings": 25,
+        "emails_offers": 7,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 24,
+        "meetings": 16,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 1,
+        "month_name": "Styczeń",
+        "emails_introduction": 36,
+        "meetings": 22,
+        "emails_offers": 2,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 6,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 2,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 6,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 13,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 8,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 4,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 4,
+        "meetings": 10,
+        "emails_offers": 2,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 4,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 14,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 14,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 4,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 6,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 1,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 13,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 2,
+        "month_name": "Luty",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 0,
+        "emails_offers": 4,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 3,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 0,
+        "phone_calls": 8,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 5,
+        "meetings": 1,
+        "emails_offers": 3,
+        "phone_calls": 8,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 10,
+        "emails_offers": 2,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 8,
+        "meetings": 6,
+        "emails_offers": 2,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 5,
+        "meetings": 12,
+        "emails_offers": 2,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 4,
+        "meetings": 3,
+        "emails_offers": 1,
+        "phone_calls": 1,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 2,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 28,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 3,
+        "phone_calls": 29,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 3,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 8,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 5,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 3,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 13,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 6,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 2,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 10,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 13,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 3,
+        "month_name": "Marzec",
+        "emails_introduction": 14,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 30,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 4,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 1,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 2,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 6,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 7,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 12,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 10,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 1,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 4,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 3,
+        "meetings": 4,
+        "emails_offers": 2,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 0,
+        "meetings": 4,
+        "emails_offers": 2,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 0,
+        "meetings": 2,
+        "emails_offers": 0,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 5,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 46,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 8,
+        "meetings": 0,
+        "emails_offers": 4,
+        "phone_calls": 7,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 5,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 17,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 6,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 3,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 1,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 2,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 1,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 41,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 14,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 35,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 21,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 30,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 20,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 4,
+        "month_name": "Kwiecień",
+        "emails_introduction": 20,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 1,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 13,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 1,
+        "meetings": 4,
+        "emails_offers": 2,
+        "phone_calls": 13,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 8,
+        "meetings": 1,
+        "emails_offers": 3,
+        "phone_calls": 14,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 15,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 18,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 16,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 28,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 14,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 17,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 22,
+        "meetings": 4,
+        "emails_offers": 2,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 3,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 3,
+        "meetings": 3,
+        "emails_offers": 5,
+        "phone_calls": 7,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 3,
+        "meetings": 3,
+        "emails_offers": 4,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 4,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 0,
+        "meetings": 6,
+        "emails_offers": 2,
+        "phone_calls": 18,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 19,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 0,
+        "phone_calls": 19,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 2,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 1,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 2,
+        "meetings": 8,
+        "emails_offers": 1,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 6,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 1,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 9,
+        "meetings": 3,
+        "emails_offers": 6,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 18,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 10,
+        "meetings": 3,
+        "emails_offers": 0,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 5,
+        "month_name": "Maj",
+        "emails_introduction": 16,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 15,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 3,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 4,
+        "meetings": 0,
+        "emails_offers": 3,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 11,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 20,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 12,
+        "meetings": 3,
+        "emails_offers": 2,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 6,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 8,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 6,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 3,
+        "meetings": 6,
+        "emails_offers": 1,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 2,
+        "meetings": 4,
+        "emails_offers": 0,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 3,
+        "meetings": 5,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 0,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 1,
+        "meetings": 3,
+        "emails_offers": 1,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 1,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 7,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 0,
+        "meetings": 4,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 15,
+        "meetings": 3,
+        "emails_offers": 0,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 3,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 6,
+        "month_name": "Czerwiec",
+        "emails_introduction": 7,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 20,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 5,
+        "meetings": 1,
+        "emails_offers": 3,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 4,
+        "phone_calls": 21,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 7,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 5,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 13,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 18,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 6,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 11,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 16,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 14,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 4,
+        "meetings": 3,
+        "emails_offers": 2,
+        "phone_calls": 11,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 4,
+        "meetings": 6,
+        "emails_offers": 2,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 3,
+        "meetings": 8,
+        "emails_offers": 3,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 6,
+        "meetings": 5,
+        "emails_offers": 4,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 5,
+        "meetings": 5,
+        "emails_offers": 3,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 1,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 3,
+        "emails_offers": 2,
+        "phone_calls": 24,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 4,
+        "meetings": 3,
+        "emails_offers": 2,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 1,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 5,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 1,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 3,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 1,
+        "meetings": 3,
+        "emails_offers": 0,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 15,
+        "meetings": 3,
+        "emails_offers": 1,
+        "phone_calls": 20,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 15,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 7,
+        "meetings": 3,
+        "emails_offers": 5,
+        "phone_calls": 10,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 8,
+        "meetings": 1,
+        "emails_offers": 3,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 22,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 7,
+        "month_name": "Lipiec",
+        "emails_introduction": 0,
+        "meetings": 2,
+        "emails_offers": 0,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 1,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 13,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 1,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 0,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 12,
+        "contracts_signed": 2
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 8,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 7,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 11,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 6,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 6,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 10,
+        "meetings": 5,
+        "emails_offers": 3,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 4,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 2,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 0,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 4,
+        "meetings": 3,
+        "emails_offers": 2,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek C.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 0,
+        "meetings": 6,
+        "emails_offers": 2,
+        "phone_calls": 3,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 1,
+        "meetings": 11,
+        "emails_offers": 0,
+        "phone_calls": 1,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 0,
+        "meetings": 4,
+        "emails_offers": 0,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 1,
+        "meetings": 5,
+        "emails_offers": 0,
+        "phone_calls": 2,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 12,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 9,
+        "meetings": 3,
+        "emails_offers": 1,
+        "phone_calls": 20,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 10,
+        "meetings": 2,
+        "emails_offers": 4,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 10,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 20,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 45,
+        "meetings": 2,
+        "emails_offers": 0,
+        "phone_calls": 28,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 17,
+        "meetings": 0,
+        "emails_offers": 2,
+        "phone_calls": 23,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 16,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 25,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 8,
+        "month_name": "Sierpień",
+        "emails_introduction": 32,
+        "meetings": 3,
+        "emails_offers": 1,
+        "phone_calls": 23,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 2,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 3,
+        "meetings": 0,
+        "emails_offers": 4,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 5,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 1,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 11,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 0,
+        "meetings": 3,
+        "emails_offers": 0,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 10,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 16,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 12,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 13,
+        "meetings": 2,
+        "emails_offers": 4,
+        "phone_calls": 19,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 4,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 0,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 0,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 12,
+        "meetings": 10,
+        "emails_offers": 5,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 6,
+        "meetings": 4,
+        "emails_offers": 4,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 3,
+        "phone_calls": 5,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 2,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 4,
+        "meetings": 4,
+        "emails_offers": 4,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 2,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 1,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 1,
+        "meetings": 4,
+        "emails_offers": 4,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 0,
+        "meetings": 5,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 1,
+        "meetings": 3,
+        "emails_offers": 1,
+        "phone_calls": 1,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 1,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 11,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 20,
+        "meetings": 2,
+        "emails_offers": 5,
+        "phone_calls": 20,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Bartek Z.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 10,
+        "meetings": 4,
+        "emails_offers": 5,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 14,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 22,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 15,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 17,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 5,
+        "meetings": 0,
+        "emails_offers": 3,
+        "phone_calls": 18,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon S.",
+        "month_number": 9,
+        "month_name": "Wrzesień",
+        "emails_introduction": 12,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 21,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 0,
+        "meetings": 5,
+        "emails_offers": 4,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 3,
+        "meetings": 1,
+        "emails_offers": 4,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 4,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 2,
+        "meetings": 3,
+        "emails_offers": 4,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 7,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 8,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 11,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 13,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 5,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 12,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 8,
+        "meetings": 3,
+        "emails_offers": 3,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 8,
+        "meetings": 2,
+        "emails_offers": 2,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Erwin",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 5,
+        "meetings": 6,
+        "emails_offers": 5,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Erwin",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 9,
+        "meetings": 7,
+        "emails_offers": 9,
+        "phone_calls": 14,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 5,
+        "meetings": 5,
+        "emails_offers": 4,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Piotr",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 4,
+        "meetings": 6,
+        "emails_offers": 3,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 3,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 5,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 2,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 1,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 4,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 5,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Wojtek",
+        "month_number": 10,
+        "month_name": "Październik",
+        "emails_introduction": 10,
+        "meetings": 1,
+        "emails_offers": 1,
+        "phone_calls": 48,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 2,
+        "meetings": 2,
+        "emails_offers": 4,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 4,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 8,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 4,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 7,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 4,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 15,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 8,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 7,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 8,
+        "meetings": 1,
+        "emails_offers": 0,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 3,
+        "meetings": 2,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 5,
+        "meetings": 3,
+        "emails_offers": 0,
+        "phone_calls": 3,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Erwin",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 4,
+        "meetings": 7,
+        "emails_offers": 2,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Erwin",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 3,
+        "meetings": 9,
+        "emails_offers": 4,
+        "phone_calls": 11,
+        "contracts_signed": 1
+    },
+    {
+        "team_member": "Erwin",
+        "month_number": 11,
+        "month_name": "Listopad",
+        "emails_introduction": 7,
+        "meetings": 2,
+        "emails_offers": 7,
+        "phone_calls": 10,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 2,
+        "meetings": 3,
+        "emails_offers": 4,
+        "phone_calls": 5,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 2,
+        "meetings": 6,
+        "emails_offers": 4,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 1,
+        "meetings": 9,
+        "emails_offers": 2,
+        "phone_calls": 11,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid S.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 0,
+        "meetings": 4,
+        "emails_offers": 1,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 6,
+        "meetings": 2,
+        "emails_offers": 3,
+        "phone_calls": 8,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 2,
+        "meetings": 1,
+        "emails_offers": 2,
+        "phone_calls": 9,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 0,
+        "meetings": 8,
+        "emails_offers": 0,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Dawid K.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 1,
+        "phone_calls": 0,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 2,
+        "meetings": 4,
+        "emails_offers": 0,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 1,
+        "meetings": 7,
+        "emails_offers": 1,
+        "phone_calls": 4,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 0,
+        "meetings": 3,
+        "emails_offers": 2,
+        "phone_calls": 2,
+        "contracts_signed": 0
+    },
+    {
+        "team_member": "Szymon O.",
+        "month_number": 12,
+        "month_name": "Grudzień",
+        "emails_introduction": 0,
+        "meetings": 0,
+        "emails_offers": 0,
+        "phone_calls": 1,
+        "contracts_signed": 0
+    }
+]

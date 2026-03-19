@@ -666,9 +666,16 @@
                     }
 
                     // Insight 2: Total volume
-                    const totalVolume = this.volumeData.reduce((sum, d) => sum + d.Suma_Wolumenu, 0);
-                    const newBusinessVolume = this.volumeData.filter(d => d.Typ_Kontraktu === 'New Business').reduce((sum, d) => sum + d.Suma_Wolumenu, 0);
-                    const nbPercentage = ((newBusinessVolume / totalVolume) * 100).toFixed(0);
+                    let totalVolume = 0;
+                    let newBusinessVolume = 0;
+                    for (let i = 0; i < this.volumeData.length; i++) {
+                        const d = this.volumeData[i];
+                        totalVolume += d.Suma_Wolumenu;
+                        if (d.Typ_Kontraktu === 'New Business') {
+                            newBusinessVolume += d.Suma_Wolumenu;
+                        }
+                    }
+                    const nbPercentage = totalVolume > 0 ? ((newBusinessVolume / totalVolume) * 100).toFixed(0) : 0;
                     insights.push(`Dominacja New Business: ${nbPercentage}% całkowitego wolumenu (${newBusinessVolume} z ${totalVolume}) pochodzi z nowych klientów.`);
 
                     // Insight 3: Activity correlation
@@ -842,8 +849,16 @@
                 },
 
                 renderBusinessTypeChart() {
-                    const newBusiness = this.volumeData.filter(d => d.Typ_Kontraktu === 'New Business').reduce((s, d) => s + d.Suma_Wolumenu, 0);
-                    const portfolio = this.volumeData.filter(d => d.Typ_Kontraktu === 'Portfel').reduce((s, d) => s + d.Suma_Wolumenu, 0);
+                    let newBusiness = 0;
+                    let portfolio = 0;
+                    for (let i = 0; i < this.volumeData.length; i++) {
+                        const d = this.volumeData[i];
+                        if (d.Typ_Kontraktu === 'New Business') {
+                            newBusiness += d.Suma_Wolumenu;
+                        } else if (d.Typ_Kontraktu === 'Portfel') {
+                            portfolio += d.Suma_Wolumenu;
+                        }
+                    }
 
                     new Chart(document.getElementById('businessTypeChart'), {
                         type: 'doughnut',

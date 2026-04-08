@@ -596,7 +596,11 @@
                 },
 
                 get teamMembers() {
-                    return [...new Set(this.weeklyMetrics.map(d => d.team_member))].sort();
+                    const members = new Set();
+                    for (let i = 0; i < this.weeklyMetrics.length; i++) {
+                        members.add(this.weeklyMetrics[i].team_member);
+                    }
+                    return Array.from(members).sort();
                 },
 
                 get totalMeetings() {

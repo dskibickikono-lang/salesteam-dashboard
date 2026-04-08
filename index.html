@@ -101,41 +101,16 @@
         
         <!-- KPI Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <div class="glass-card rounded-xl p-6 metric-card">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="text-slate-400 text-sm font-semibold">SPOTKANIA</span>
-                    <span class="text-3xl">📊</span>
+            <template x-for="card in kpiCards" :key="card.label">
+                <div class="glass-card rounded-xl p-6 metric-card">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-slate-400 text-sm font-semibold" x-text="card.label"></span>
+                        <span class="text-3xl" x-text="card.icon"></span>
+                    </div>
+                    <div :class="card.color + ' text-4xl font-bold'" x-text="card.value"></div>
+                    <div class="text-xs text-slate-500 mt-2" x-text="card.desc"></div>
                 </div>
-                <div class="text-4xl font-bold text-emerald-400" x-text="totalMeetings"></div>
-                <div class="text-xs text-slate-500 mt-2">Całkowita liczba spotkań</div>
-            </div>
-
-            <div class="glass-card rounded-xl p-6 metric-card">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="text-slate-400 text-sm font-semibold">KONTRAKTY</span>
-                    <span class="text-3xl">✅</span>
-                </div>
-                <div class="text-4xl font-bold text-blue-400" x-text="totalContracts"></div>
-                <div class="text-xs text-slate-500 mt-2">Podpisane kontrakty</div>
-            </div>
-
-            <div class="glass-card rounded-xl p-6 metric-card">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="text-slate-400 text-sm font-semibold">CONVERSION</span>
-                    <span class="text-3xl">🎯</span>
-                </div>
-                <div class="text-4xl font-bold text-amber-400" x-text="conversionRate + '%'"></div>
-                <div class="text-xs text-slate-500 mt-2">Spotkania → Kontrakty</div>
-            </div>
-
-            <div class="glass-card rounded-xl p-6 metric-card">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="text-slate-400 text-sm font-semibold">AKTYWNOŚĆ</span>
-                    <span class="text-3xl">⚡</span>
-                </div>
-                <div class="text-4xl font-bold text-purple-400" x-text="totalActivity"></div>
-                <div class="text-xs text-slate-500 mt-2">Maile + Telefony</div>
-            </div>
+            </template>
         </div>
 
         <!-- Effort vs Result Chart -->
@@ -615,6 +590,15 @@
 
                 get totalActivity() {
                     return this.weeklyMetrics.reduce((sum, d) => sum + d.emails_introduction + d.emails_offers + d.phone_calls, 0);
+                },
+
+                get kpiCards() {
+                    return [
+                        { label: 'SPOTKANIA', icon: '📊', value: this.totalMeetings, color: 'text-emerald-400', desc: 'Całkowita liczba spotkań' },
+                        { label: 'KONTRAKTY', icon: '✅', value: this.totalContracts, color: 'text-blue-400', desc: 'Podpisane kontrakty' },
+                        { label: 'CONVERSION', icon: '🎯', value: this.conversionRate + '%', color: 'text-amber-400', desc: 'Spotkania → Kontrakty' },
+                        { label: 'AKTYWNOŚĆ', icon: '⚡', value: this.totalActivity, color: 'text-purple-400', desc: 'Maile + Telefony' }
+                    ];
                 },
 
                 get rankedMembers() {

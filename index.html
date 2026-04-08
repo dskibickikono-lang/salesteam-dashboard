@@ -763,10 +763,13 @@
                 },
 
                 renderFunnelChart() {
-                    const totalIntroEmails = this.filteredMetrics.reduce((s, d) => s + d.emails_introduction, 0);
-                    const totalMeetings = this.filteredMetrics.reduce((s, d) => s + d.meetings, 0);
-                    const totalOfferEmails = this.filteredMetrics.reduce((s, d) => s + d.emails_offers, 0);
-                    const totalContracts = this.filteredMetrics.reduce((s, d) => s + d.contracts_signed, 0);
+                    const totals = this.filteredMetrics.reduce((acc, d) => {
+                        acc.intro += d.emails_introduction;
+                        acc.meetings += d.meetings;
+                        acc.offers += d.emails_offers;
+                        acc.contracts += d.contracts_signed;
+                        return acc;
+                    }, { intro: 0, meetings: 0, offers: 0, contracts: 0 });
 
                     if (this.charts.funnel) {
                         this.charts.funnel.destroy();
@@ -778,7 +781,7 @@
                             labels: ['Maile Intro', 'Spotkania', 'Maile Oferty', 'Kontrakty'],
                             datasets: [{
                                 label: 'Lejek Sprzedaży',
-                                data: [totalIntroEmails, totalMeetings, totalOfferEmails, totalContracts],
+                                data: [totals.intro, totals.meetings, totals.offers, totals.contracts],
                                 backgroundColor: ['#3b82f6', '#8b5cf6', '#f59e0b', '#10b981']
                             }]
                         },
